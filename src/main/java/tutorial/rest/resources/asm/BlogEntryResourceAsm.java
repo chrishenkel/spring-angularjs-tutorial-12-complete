@@ -21,7 +21,7 @@ public class BlogEntryResourceAsm extends ResourceAssemblerSupport<BlogEntry, Bl
         BlogEntryResource res = new BlogEntryResource();
         res.setTitle(blogEntry.getTitle());
         Link link = linkTo(BlogEntryController.class).slash(blogEntry.getId()).withSelfRel();
-        res.add(link.withSelfRel());
+        res.add(link);
         return res;
     }
 }

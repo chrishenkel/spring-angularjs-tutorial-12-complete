@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8a9b97d-3194-424e-b657-6ba06d523fc7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/BlogEntryController.java" afterPath="$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/BlogEntryController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tutorial/mvc/BlogEntryControllerTest.java" afterPath="$PROJECT_DIR$/src/test/java/tutorial/mvc/BlogEntryControllerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/tutorial/rest/resources/BlogEntryResource.java" afterPath="$PROJECT_DIR$/src/main/java/tutorial/rest/resources/BlogEntryResource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/tutorial/core/services/BlogEntryService.java" afterPath="$PROJECT_DIR$/src/main/java/tutorial/core/services/BlogEntryService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/tutorial/rest/resources/asm/BlogEntryResourceAsm.java" afterPath="$PROJECT_DIR$/src/main/java/tutorial/rest/resources/asm/BlogEntryResourceAsm.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="basic-web-app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -99,7 +97,7 @@
       <file leaf-file-name="BlogEntryController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/BlogEntryController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="11" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0" vertical-offset="1200" max-vertical-offset="1728">
+            <state line="36" column="5" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.0" vertical-offset="795" max-vertical-offset="1728">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,17 +108,19 @@
       <file leaf-file-name="RequestMapping.class" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.5.RELEASE/spring-web-4.0.5.RELEASE.jar!/org/springframework/web/bind/annotation/RequestMapping.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="23" selection-start="498" selection-end="498" vertical-scroll-proportion="-4.16" vertical-offset="136" max-vertical-offset="648">
+            <state line="11" column="23" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0" vertical-offset="264" max-vertical-offset="672">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BlogEntryService.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BlogEntryService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/services/BlogEntryService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="39" selection-start="525" selection-end="525" vertical-scroll-proportion="0.46153846" vertical-offset="192" max-vertical-offset="576">
-              <folding />
+            <state line="14" column="39" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0" vertical-offset="336" max-vertical-offset="576">
+              <folding>
+                <marker date="1403882573594" expanded="true" signature="352:583" placeholder="/**...*/" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -128,10 +128,8 @@
       <file leaf-file-name="BlogEntryResource.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/resources/BlogEntryResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="3" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="648">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="7" column="3" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="74" max-vertical-offset="624">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -139,14 +137,8 @@
       <file leaf-file-name="BlogEntry.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/entities/BlogEntry.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="25" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="744">
-              <folding>
-                <element signature="e#247#248#0" expanded="true" />
-                <element signature="e#281#282#0" expanded="true" />
-                <element signature="e#333#334#0" expanded="true" />
-                <element signature="e#367#368#0" expanded="true" />
-                <element signature="e#395#396#0" expanded="true" />
-              </folding>
+            <state line="19" column="25" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0" vertical-offset="456" max-vertical-offset="792">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -154,19 +146,17 @@
       <file leaf-file-name="BlogEntryControllerTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tutorial/mvc/BlogEntryControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="26" selection-start="3053" selection-end="3053" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="2448">
+            <state line="92" column="26" selection-start="3053" selection-end="3053" vertical-scroll-proportion="0.0" vertical-offset="2208" max-vertical-offset="2928">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BlogEntryResourceAsm.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="BlogEntryResourceAsm.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/resources/asm/BlogEntryResourceAsm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="6" selection-start="746" selection-end="746" vertical-scroll-proportion="0.0" vertical-offset="467" max-vertical-offset="792">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="23" column="0" selection-start="878" selection-end="878" vertical-scroll-proportion="0.9519231" vertical-offset="135" max-vertical-offset="672">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -202,11 +192,11 @@
         <option value="$PROJECT_DIR$/src/main/java/tutorial/mvc/BlogEntryController.java" />
         <option value="$PROJECT_DIR$/src/main/java/tutorial/entities/BlogEntry.java" />
         <option value="$PROJECT_DIR$/src/main/java/tutorial/core/entities/BlogEntry.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tutorial/rest/resources/asm/BlogEntryResourceAsm.java" />
         <option value="$PROJECT_DIR$/src/main/java/tutorial/core/services/BlogEntryService.java" />
         <option value="$PROJECT_DIR$/src/main/java/tutorial/rest/resources/BlogEntryResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/BlogEntryController.java" />
         <option value="$PROJECT_DIR$/src/test/java/tutorial/mvc/BlogEntryControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tutorial/rest/resources/asm/BlogEntryResourceAsm.java" />
       </list>
     </option>
   </component>
@@ -307,6 +297,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -583,8 +575,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -635,6 +625,26 @@
       <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -657,45 +667,12 @@
       </MavenSettings>
       <method />
     </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -723,6 +700,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -819,7 +809,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="726" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -838,12 +828,12 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37688443" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37688443" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -867,6 +857,80 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.0.5.RELEASE/spring-webmvc-4.0.5.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="335" column="16" selection-start="10477" selection-end="10477" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8376">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="4" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="528">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="3" selection-start="956" selection-end="956" vertical-scroll-proportion="0.0" vertical-offset="6" max-vertical-offset="600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/BlogEntryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="11" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0" vertical-offset="1200" max-vertical-offset="1728">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.5.RELEASE/spring-web-4.0.5.RELEASE.jar!/org/springframework/web/bind/annotation/RequestMapping.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="23" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0" vertical-offset="264" max-vertical-offset="672">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/services/BlogEntryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="39" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0" vertical-offset="336" max-vertical-offset="576">
+          <folding>
+            <marker date="1403882573594" expanded="true" signature="352:583" placeholder="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/resources/BlogEntryResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="3" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="168" max-vertical-offset="744">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/entities/BlogEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="25" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0" vertical-offset="456" max-vertical-offset="792">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tutorial/mvc/BlogEntryControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="26" selection-start="3053" selection-end="3053" vertical-scroll-proportion="0.0" vertical-offset="2208" max-vertical-offset="2928">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/resources/asm/BlogEntryResourceAsm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="6" selection-start="746" selection-end="746" vertical-scroll-proportion="0.0" vertical-offset="467" max-vertical-offset="792">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="77" column="23" selection-start="2759" selection-end="2759" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2712">
@@ -907,13 +971,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/entities/BlogEntry.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="0" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0" vertical-offset="384" max-vertical-offset="528">
-          <folding>
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1020,47 +1078,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/entities/BlogEntry.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="25" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="744">
-          <folding>
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/resources/asm/BlogEntryResourceAsm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="6" selection-start="746" selection-end="746" vertical-scroll-proportion="0.0" vertical-offset="467" max-vertical-offset="792">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.5.RELEASE/spring-web-4.0.5.RELEASE.jar!/org/springframework/web/bind/annotation/RequestMapping.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="23" selection-start="498" selection-end="498" vertical-scroll-proportion="-4.16" vertical-offset="136" max-vertical-offset="648">
+        <state line="11" column="23" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0" vertical-offset="264" max-vertical-offset="672">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/resources/BlogEntryResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="3" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="648">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/BlogEntryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="11" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0" vertical-offset="1200" max-vertical-offset="1728">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1073,7 +1098,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/services/BlogEntryService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="39" selection-start="525" selection-end="525" vertical-scroll-proportion="0.46153846" vertical-offset="192" max-vertical-offset="576">
+        <state line="14" column="39" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0" vertical-offset="192" max-vertical-offset="576">
+          <folding>
+            <marker date="1403882573594" expanded="true" signature="352:583" placeholder="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/BlogEntryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="5" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.0" vertical-offset="795" max-vertical-offset="1728">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/resources/BlogEntryResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="3" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="648">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/resources/asm/BlogEntryResourceAsm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="878" selection-end="878" vertical-scroll-proportion="0.9519231" vertical-offset="135" max-vertical-offset="672">
           <folding />
         </state>
       </provider>

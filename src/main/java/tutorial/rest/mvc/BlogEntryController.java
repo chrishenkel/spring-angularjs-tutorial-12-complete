@@ -35,4 +35,32 @@ public class BlogEntryController {
             return new ResponseEntity<BlogEntryResource>(HttpStatus.NOT_FOUND);
         }
     }
+
+    @RequestMapping(value="/{blogEntryId}",
+            method = RequestMethod.DELETE)
+    public ResponseEntity<BlogEntryResource> deleteBlogEntry(
+            @PathVariable Long blogEntryId) {
+        BlogEntry entry = service.delete(blogEntryId);
+        if(entry != null)
+        {
+            BlogEntryResource res = new BlogEntryResourceAsm().toResource(entry);
+            return new ResponseEntity<BlogEntryResource>(res, HttpStatus.OK);
+        } else {
+            return new ResponseEntity<BlogEntryResource>(HttpStatus.NOT_FOUND);
+        }
+    }
+
+    @RequestMapping(value="/{blogEntryId}",
+            method = RequestMethod.PUT)
+    public ResponseEntity<BlogEntryResource> updateBlogEntry(
+            @PathVariable Long blogEntryId, @RequestBody BlogEntryResource sentBlogEntry) {
+        BlogEntry updatedEntry = service.update(blogEntryId, sentBlogEntry.toBlogEntry());
+        if(updatedEntry != null)
+        {
+            BlogEntryResource res = new BlogEntryResourceAsm().toResource(updatedEntry);
+            return new ResponseEntity<BlogEntryResource>(res, HttpStatus.OK);
+        } else {
+            return new ResponseEntity<BlogEntryResource>(HttpStatus.NOT_FOUND);
+        }
+    }
 }

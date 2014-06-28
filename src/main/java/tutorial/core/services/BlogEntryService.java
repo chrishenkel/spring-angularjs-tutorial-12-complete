@@ -15,4 +15,5 @@ public interface BlogEntryService {
      * @return the updated BlogEntry or null if the BlogEntry with the id cannot be found
      */
     public BlogEntry update(Long id, BlogEntry data);
+
 }

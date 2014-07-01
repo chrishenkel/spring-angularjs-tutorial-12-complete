@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8a9b97d-3194-424e-b657-6ba06d523fc7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/AccountController.java" afterPath="$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/AccountController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tutorial/mvc/AccountControllerTest.java" afterPath="$PROJECT_DIR$/src/test/java/tutorial/mvc/AccountControllerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/tutorial/rest/resources/AccountResource.java" afterPath="$PROJECT_DIR$/src/main/java/tutorial/rest/resources/AccountResource.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="basic-web-app.iws" />
@@ -69,10 +66,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AccountControllerTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AccountControllerTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tutorial/mvc/AccountControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="0" selection-start="3233" selection-end="3233" vertical-scroll-proportion="0.3319672" vertical-offset="1158" max-vertical-offset="2952">
+            <state line="83" column="0" selection-start="3233" selection-end="3233" vertical-scroll-proportion="0.0" vertical-offset="1992" max-vertical-offset="3624">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountDoesNotExistException.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/services/exceptions/AccountDoesNotExistException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="31" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="696">
               <folding />
             </state>
           </provider>
@@ -81,12 +87,8 @@
       <file leaf-file-name="BlogEntry.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/models/entities/BlogEntry.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="27" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0" vertical-offset="147" max-vertical-offset="840">
-              <folding>
-                <element signature="e#482#483#0" expanded="true" />
-                <element signature="e#520#521#0" expanded="true" />
-                <element signature="e#552#553#0" expanded="true" />
-              </folding>
+            <state line="29" column="27" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0" vertical-offset="696" max-vertical-offset="1032">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -94,7 +96,7 @@
       <file leaf-file-name="Blog.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/models/entities/Blog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="26" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="720">
+            <state line="10" column="26" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="1008">
               <folding />
             </state>
           </provider>
@@ -112,27 +114,16 @@
       <file leaf-file-name="AccountController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/AccountController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="9" selection-start="3443" selection-end="3443" vertical-scroll-proportion="0.0" vertical-offset="1096" max-vertical-offset="1728">
+            <state line="82" column="9" selection-start="3443" selection-end="3443" vertical-scroll-proportion="0.0" vertical-offset="1968" max-vertical-offset="2232">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BlogControllerTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tutorial/mvc/BlogControllerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="0" selection-start="1929" selection-end="1929" vertical-scroll-proportion="0.0" vertical-offset="2992" max-vertical-offset="3528">
-              <folding>
-                <element signature="e#1919#1925#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountResource.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AccountResource.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/resources/AccountResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="792">
+            <state line="22" column="0" selection-start="519" selection-end="519" vertical-scroll-proportion="0.45454547" vertical-offset="0" max-vertical-offset="792">
               <folding />
             </state>
           </provider>
@@ -141,7 +132,7 @@
       <file leaf-file-name="BlogEntryControllerTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tutorial/mvc/BlogEntryControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="85" selection-start="1899" selection-end="1899" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="2640">
+            <state line="58" column="85" selection-start="1899" selection-end="1899" vertical-scroll-proportion="0.0" vertical-offset="1392" max-vertical-offset="3096">
               <folding />
             </state>
           </provider>
@@ -159,7 +150,7 @@
       <file leaf-file-name="Account.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/models/entities/Account.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="672">
+            <state line="17" column="0" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="960">
               <folding />
             </state>
           </provider>
@@ -231,9 +222,9 @@
         <option value="$PROJECT_DIR$/src/test/java/tutorial/mvc/BlogControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/tutorial/mvc/BlogEntryControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/tutorial/core/models/entities/BlogEntry.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tutorial/rest/resources/AccountResource.java" />
         <option value="$PROJECT_DIR$/src/test/java/tutorial/mvc/AccountControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/AccountController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tutorial/rest/resources/AccountResource.java" />
       </list>
     </option>
   </component>
@@ -337,6 +328,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -753,7 +745,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -887,26 +878,6 @@
       <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -929,12 +900,45 @@
       </MavenSettings>
       <method />
     </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -962,19 +966,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1084,24 +1075,24 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295063" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20097245" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39660743" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3467279" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3456376" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295063" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1262,16 +1253,12 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/hateoas/spring-hateoas/0.12.0.RELEASE/spring-hateoas-0.12.0.RELEASE.jar!/org/springframework/hateoas/ResourceAssembler.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="174" selection-end="174" vertical-scroll-proportion="-4.8" vertical-offset="0" max-vertical-offset="312">
-          <folding />
-        </state>
+        <state line="6" column="17" selection-start="174" selection-end="174" vertical-scroll-proportion="-4.8" vertical-offset="0" max-vertical-offset="312" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar!/org/hamcrest/Matchers.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="75" selection-start="4433" selection-end="4433" vertical-scroll-proportion="-10.52" vertical-offset="1153" max-vertical-offset="5400">
-          <folding />
-        </state>
+        <state line="60" column="75" selection-start="4433" selection-end="4433" vertical-scroll-proportion="-10.52" vertical-offset="1153" max-vertical-offset="5400" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/services/util/BlogEntryList.java">
@@ -1286,9 +1273,7 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/hateoas/spring-hateoas/0.12.0.RELEASE/spring-hateoas-0.12.0.RELEASE.jar!/org/springframework/hateoas/mvc/ResourceAssemblerSupport.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="29" selection-start="597" selection-end="597" vertical-scroll-proportion="-6.64" vertical-offset="98" max-vertical-offset="576">
-          <folding />
-        </state>
+        <state line="12" column="29" selection-start="597" selection-end="597" vertical-scroll-proportion="-6.64" vertical-offset="98" max-vertical-offset="576" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/resources/BlogEntryListResource.java">
@@ -1331,13 +1316,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/services/exceptions/BlogNotFoundException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="0" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="552">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/services/exceptions/AccountDoesNotExistException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0" vertical-offset="16" max-vertical-offset="696">
           <folding />
         </state>
       </provider>
@@ -1459,11 +1437,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/models/entities/BlogEntry.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="27" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="888">
-          <folding>
-            <element signature="e#482#483#0" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1481,13 +1455,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/resources/AccountResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="792">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/AccountController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="82" column="9" selection-start="3443" selection-end="3443" vertical-scroll-proportion="0.0" vertical-offset="1096" max-vertical-offset="1728">
@@ -1497,7 +1464,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tutorial/mvc/AccountControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="0" selection-start="3233" selection-end="3233" vertical-scroll-proportion="0.3319672" vertical-offset="1158" max-vertical-offset="2952">
+        <state line="83" column="0" selection-start="3233" selection-end="3233" vertical-scroll-proportion="0.0" vertical-offset="1158" max-vertical-offset="2952">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/services/exceptions/AccountDoesNotExistException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="31" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0" vertical-offset="208" max-vertical-offset="696">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/resources/AccountResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="519" selection-end="519" vertical-scroll-proportion="0.45454547" vertical-offset="0" max-vertical-offset="792">
           <folding />
         </state>
       </provider>

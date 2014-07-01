@@ -58,7 +58,7 @@ public class BlogEntryControllerTest {
                 .andExpect(jsonPath("$.links[*].href",
                         hasItems(endsWith("/blogs/1"), endsWith("/blog-entries/1"))))
                 .andExpect(jsonPath("$.links[*].rel",
-                        hasItems(is("self"), is("blogs"))))
+                        hasItems(is("self"), is("blog"))))
                 .andExpect(status().isOk());
     }
 

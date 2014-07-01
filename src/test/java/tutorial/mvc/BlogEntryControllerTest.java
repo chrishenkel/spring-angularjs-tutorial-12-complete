@@ -8,18 +8,18 @@ import org.mockito.MockitoAnnotations;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
+import tutorial.core.models.entities.Blog;
 import tutorial.core.models.entities.BlogEntry;
 import tutorial.core.services.BlogEntryService;
 import tutorial.rest.mvc.BlogEntryController;
 
-import static org.hamcrest.Matchers.endsWith;
-import static org.hamcrest.Matchers.hasItem;
-import static org.hamcrest.Matchers.is;
+import static org.hamcrest.Matchers.*;
 import static org.mockito.Matchers.any;
 import static org.mockito.Matchers.eq;
 import static org.mockito.Mockito.when;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 
 /**
  * Created by Chris on 6/19/14.
@@ -46,11 +46,19 @@ public class BlogEntryControllerTest {
         entry.setId(1L);
         entry.setTitle("Test Title");
 
+        Blog blog = new Blog();
+        blog.setId(1L);
+
+        entry.setBlog(blog);
+
         when(service.findBlogEntry(1L)).thenReturn(entry);
 
         mockMvc.perform(get("/rest/blog-entries/1"))
                 .andExpect(jsonPath("$.title", is(entry.getTitle())))
+                .andExpect(jsonPath("$.links[*].href", hasItem(endsWith("/blogs/1"))))
                 .andExpect(jsonPath("$.links[*].href", hasItem(endsWith("/blog-entries/1"))))
+                .andExpect(jsonPath("$.links[*].rel",
+                        hasItems(is("self"), is("blogs"))))
                 .andExpect(status().isOk());
     }
 

@@ -48,14 +48,9 @@ public class AccountControllerTest {
 
     @Test
     public void createBlogExistingAccount() throws Exception {
-
-        Account account = new Account();
-        account.setId(1L);
-
         Blog createdBlog = new Blog();
         createdBlog.setId(1L);
         createdBlog.setTitle("Test Title");
-        createdBlog.setOwner(account);
 
         when(service.createBlog(eq(1L), any(Blog.class))).thenReturn(createdBlog);
 

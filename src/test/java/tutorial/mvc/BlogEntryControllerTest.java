@@ -55,8 +55,8 @@ public class BlogEntryControllerTest {
 
         mockMvc.perform(get("/rest/blog-entries/1"))
                 .andExpect(jsonPath("$.title", is(entry.getTitle())))
-                .andExpect(jsonPath("$.links[*].href", hasItem(endsWith("/blogs/1"))))
-                .andExpect(jsonPath("$.links[*].href", hasItem(endsWith("/blog-entries/1"))))
+                .andExpect(jsonPath("$.links[*].href",
+                        hasItems(endsWith("/blogs/1"), endsWith("/blog-entries/1"))))
                 .andExpect(jsonPath("$.links[*].rel",
                         hasItems(is("self"), is("blogs"))))
                 .andExpect(status().isOk());

@@ -54,18 +54,14 @@ public class BlogControllerTest {
     public void findAllBlogs() throws Exception {
         List<Blog> list = new ArrayList<Blog>();
 
-        Account owner = new Account();
-
         Blog blogA = new Blog();
         blogA.setId(1L);
         blogA.setTitle("Title A");
-        blogA.setOwner(owner);
         list.add(blogA);
 
         Blog blogB = new Blog();
         blogB.setId(2L);
         blogB.setTitle("Title B");
-        blogB.setOwner(owner);
         list.add(blogB);
 
         BlogList allBlogs = new BlogList();

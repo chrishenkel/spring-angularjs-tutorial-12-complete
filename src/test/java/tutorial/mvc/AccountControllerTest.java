@@ -120,7 +120,7 @@ public class AccountControllerTest {
     }
 
     @Test
-    public void getExistingAccountInfo() throws Exception {
+    public void getExistingAccount() throws Exception {
         Account foundAccount = new Account();
         foundAccount.setId(1L);
         foundAccount.setPassword("test");
@@ -136,7 +136,7 @@ public class AccountControllerTest {
     }
 
     @Test
-    public void getNonExistingAccountInfo() throws Exception {
+    public void getNonExistingAccount() throws Exception {
         when(service.findAccount(1L)).thenReturn(null);
 
         mockMvc.perform(get("/rest/accounts/1"))

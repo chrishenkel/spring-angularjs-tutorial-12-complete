@@ -1,6 +1,7 @@
 package tutorial.rest.resources;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import org.springframework.hateoas.ResourceSupport;
 import tutorial.core.models.entities.Account;
 
@@ -20,7 +21,6 @@ public class AccountResource extends ResourceSupport {
         this.name = name;
     }
 
-    @JsonIgnore
     public String getPassword() {
         return password;
     }

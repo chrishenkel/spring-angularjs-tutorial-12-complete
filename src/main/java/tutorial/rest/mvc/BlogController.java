@@ -25,7 +25,6 @@ import tutorial.rest.resources.asm.BlogListResourceAsm;
 import tutorial.rest.resources.asm.BlogResourceAsm;
 
 import java.net.URI;
-import java.util.List;
 
 /**
  * Created by Chris on 6/28/14.
@@ -51,7 +50,7 @@ public class BlogController {
         method = RequestMethod.GET)
     public ResponseEntity<BlogResource> getBlog(@PathVariable Long blogId)
     {
-        Blog blog = blogService.find(blogId);
+        Blog blog = blogService.findBlog(blogId);
         BlogResource res = new BlogResourceAsm().toResource(blog);
         return new ResponseEntity<BlogResource>(res, HttpStatus.OK);
     }
@@ -64,7 +63,7 @@ public class BlogController {
     ) {
         BlogEntry createdBlogEntry = null;
         try {
-            createdBlogEntry = blogService.create(blogId, sentBlogEntry.toBlogEntry());
+            createdBlogEntry = blogService.createBlogEntry(blogId, sentBlogEntry.toBlogEntry());
             BlogEntryResource createdResource = new BlogEntryResourceAsm().toResource(createdBlogEntry);
             HttpHeaders headers = new HttpHeaders();
             headers.setLocation(URI.create(createdResource.getLink("self").getHref()));
@@ -79,7 +78,7 @@ public class BlogController {
             @PathVariable Long blogId)
     {
         try {
-            BlogEntryList list = blogService.findAll(blogId);
+            BlogEntryList list = blogService.findAllBlogEntries(blogId);
             BlogEntryListResource res = new BlogEntryListResourceAsm().toResource(list);
             return new ResponseEntity<BlogEntryListResource>(res, HttpStatus.OK);
         } catch(BlogNotFoundException exception)

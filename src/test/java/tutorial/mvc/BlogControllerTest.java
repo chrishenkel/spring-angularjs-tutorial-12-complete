@@ -89,7 +89,7 @@ public class BlogControllerTest {
         account.setId(1L);
         blog.setOwner(account);
 
-        when(blogService.find(1L)).thenReturn(blog);
+        when(blogService.findBlog(1L)).thenReturn(blog);
 
         mockMvc.perform(get("/rest/blogs/1"))
                 .andExpect(jsonPath("$.links[*].href",
@@ -111,7 +111,7 @@ public class BlogControllerTest {
         entry.setTitle("Test Title");
         entry.setId(1L);
 
-        when(blogService.create(eq(1L), any(BlogEntry.class))).thenReturn(entry);
+        when(blogService.createBlogEntry(eq(1L), any(BlogEntry.class))).thenReturn(entry);
 
         mockMvc.perform(post("/rest/blogs/1/blog-entries")
                 .content("{\"title\":\"Generic Title\"}")
@@ -125,7 +125,7 @@ public class BlogControllerTest {
 
     @Test
     public void createBlogEntryNonExistingBlog() throws Exception {
-        when(blogService.create(eq(1L), any(BlogEntry.class))).thenThrow(new BlogNotFoundException());
+        when(blogService.createBlogEntry(eq(1L), any(BlogEntry.class))).thenThrow(new BlogNotFoundException());
 
         mockMvc.perform(post("/rest/blogs/1/blog-entries")
                 .content("{\"title\":\"Generic Title\"}")
@@ -152,7 +152,7 @@ public class BlogControllerTest {
         list.setEntries(blogListings);
         list.setBlogId(1L);
 
-        when(blogService.findAll(1L)).thenReturn(list);
+        when(blogService.findAllBlogEntries(1L)).thenReturn(list);
 
         mockMvc.perform(get("/rest/blogs/1/blog-entries"))
                 .andDo(print())
@@ -163,7 +163,7 @@ public class BlogControllerTest {
 
     @Test
     public void listBlogEntriesForNonExistingBlog() throws Exception {
-        when(blogService.findAll(1L)).thenThrow(new BlogNotFoundException());
+        when(blogService.findAllBlogEntries(1L)).thenThrow(new BlogNotFoundException());
 
         mockMvc.perform(get("/rest/blogs/1/blog-entries"))
                 .andDo(print())

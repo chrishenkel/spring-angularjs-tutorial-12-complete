@@ -40,7 +40,7 @@ public class AccountController {
             @RequestBody AccountResource sentAccount
     ) {
         try {
-            Account createdAccount = accountService.create(sentAccount.toAccount());
+            Account createdAccount = accountService.createAccount(sentAccount.toAccount());
             AccountResource res = new AccountResourceAsm().toResource(createdAccount);
             HttpHeaders headers = new HttpHeaders();
             headers.setLocation(URI.create(res.getLink("self").getHref()));
@@ -55,7 +55,7 @@ public class AccountController {
     public ResponseEntity<AccountResource> getAccount(
             @PathVariable Long accountId
     ) {
-        Account account = accountService.find(accountId);
+        Account account = accountService.findAccount(accountId);
         if(account != null)
         {
             AccountResource res = new AccountResourceAsm().toResource(account);
@@ -72,7 +72,7 @@ public class AccountController {
             @RequestBody BlogResource res)
     {
         try {
-            Blog createdBlog = accountService.create(accountId, res.toBlog());
+            Blog createdBlog = accountService.createBlog(accountId, res.toBlog());
             BlogResource createdBlogRes = new BlogResourceAsm().toResource(createdBlog);
             HttpHeaders headers = new HttpHeaders();
             headers.setLocation(URI.create(createdBlogRes.getLink("self").getHref()));

@@ -17,11 +17,11 @@ public interface BlogService {
      * @return the created BlogEntry with a generated ID
      * @throws tutorial.core.services.exceptions.BlogNotFoundException if the blog to add to cannot be found
      */
-    public BlogEntry create(Long blogId, BlogEntry data);
+    public BlogEntry createBlogEntry(Long blogId, BlogEntry data);
 
     public BlogList findAllBlogs();
 
-    public BlogEntryList findAll(Long blogId); // find all associated blog entries
+    public BlogEntryList findAllBlogEntries(Long blogId); // findBlog all associated blog entries
 
-    public Blog find(Long eq);
+    public Blog findBlog(Long eq);
 }

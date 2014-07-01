@@ -7,7 +7,7 @@ import tutorial.core.models.entities.Blog;
  * Created by Chris on 6/28/14.
  */
 public interface AccountService {
-    public Account find(Long id);
-    public Account create(Account data);
-    public Blog create(Long accountId, Blog data);
+    public Account findAccount(Long id);
+    public Account createAccount(Account data);
+    public Blog createBlog(Long accountId, Blog data);
 }

@@ -57,7 +57,7 @@ public class AccountControllerTest {
         createdBlog.setTitle("Test Title");
         createdBlog.setOwner(account);
 
-        when(service.create(eq(1L), any(Blog.class))).thenReturn(createdBlog);
+        when(service.createBlog(eq(1L), any(Blog.class))).thenReturn(createdBlog);
 
         mockMvc.perform(post("/rest/accounts/1/blogs")
                 .content("{\"title\":\"Test Title\"}")
@@ -71,7 +71,7 @@ public class AccountControllerTest {
 
     @Test
     public void createBlogNonExistingAccount() throws Exception {
-        when(service.create(eq(1L), any(Blog.class))).thenThrow(new AccountDoesNotExistException());
+        when(service.createBlog(eq(1L), any(Blog.class))).thenThrow(new AccountDoesNotExistException());
 
         mockMvc.perform(post("/rest/accounts/1/blogs")
                 .content("{\"title\":\"Test Title\"}")
@@ -81,7 +81,7 @@ public class AccountControllerTest {
 
     @Test
     public void createBlogExistingBlogName() throws Exception {
-        when(service.create(eq(1L), any(Blog.class))).thenThrow(new BlogExistsException());
+        when(service.createBlog(eq(1L), any(Blog.class))).thenThrow(new BlogExistsException());
 
         mockMvc.perform(post("/rest/accounts/1/blogs")
                 .content("{\"title\":\"Test Title\"}")
@@ -96,7 +96,7 @@ public class AccountControllerTest {
         createdAccount.setPassword("test");
         createdAccount.setName("test");
 
-        when(service.create(any(Account.class))).thenReturn(createdAccount);
+        when(service.createAccount(any(Account.class))).thenReturn(createdAccount);
 
         mockMvc.perform(post("/rest/accounts")
                 .content("{\"name\":\"test\",\"password\":\"test\"}")
@@ -113,7 +113,7 @@ public class AccountControllerTest {
         createdAccount.setPassword("test");
         createdAccount.setName("test");
 
-        when(service.create(any(Account.class))).thenThrow(new AccountExistsException());
+        when(service.createAccount(any(Account.class))).thenThrow(new AccountExistsException());
 
         mockMvc.perform(post("/rest/accounts")
                 .content("{\"name\":\"test\",\"password\":\"test\"}")
@@ -128,7 +128,7 @@ public class AccountControllerTest {
         foundAccount.setPassword("test");
         foundAccount.setName("test");
 
-        when(service.find(1L)).thenReturn(foundAccount);
+        when(service.findAccount(1L)).thenReturn(foundAccount);
 
         mockMvc.perform(get("/rest/accounts/1"))
                 .andDo(print())
@@ -139,7 +139,7 @@ public class AccountControllerTest {
 
     @Test
     public void getNonExistingAccountInfo() throws Exception {
-        when(service.find(1L)).thenReturn(null);
+        when(service.findAccount(1L)).thenReturn(null);
 
         mockMvc.perform(get("/rest/accounts/1"))
                 .andExpect(status().isNotFound());

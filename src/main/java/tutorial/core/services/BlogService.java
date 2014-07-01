@@ -1,7 +1,9 @@
 package tutorial.core.services;
 
-import tutorial.core.entities.Blog;
-import tutorial.core.entities.BlogEntry;
+import tutorial.core.models.entities.Blog;
+import tutorial.core.services.util.BlogEntryList;
+import tutorial.core.models.entities.BlogEntry;
+import tutorial.core.services.util.BlogList;
 
 import java.util.List;
 
@@ -9,9 +11,6 @@ import java.util.List;
  * Created by Chris on 6/28/14.
  */
 public interface BlogService {
-    public Blog find(Long id); // Returns the Blog with the id, or null if it can't be found
-
-
     /**
      * @param blogId the id of the blog to add this BlogEntry to
      * @param data the BlogEntry containing the data to be used for creating the new entity
@@ -20,5 +19,9 @@ public interface BlogService {
      */
     public BlogEntry create(Long blogId, BlogEntry data);
 
-    public List<BlogEntry> findAll(Long blogId); // find all associated blog entries
+    public BlogList findAllBlogs();
+
+    public BlogEntryList findAll(Long blogId); // find all associated blog entries
+
+    public Blog find(Long eq);
 }

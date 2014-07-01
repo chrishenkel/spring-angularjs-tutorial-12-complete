@@ -1,4 +1,4 @@
-package tutorial.core.entities;
+package tutorial.core.models.entities;
 
 /**
  * Created by Chris on 6/19/14.

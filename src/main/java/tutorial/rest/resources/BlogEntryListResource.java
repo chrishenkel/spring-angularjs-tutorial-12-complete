@@ -1,16 +1,13 @@
 package tutorial.rest.resources;
 
 import org.springframework.hateoas.ResourceSupport;
-import tutorial.core.entities.Blog;
-import tutorial.core.entities.BlogEntry;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
  * Created by Chris on 6/28/14.
  */
-public class BlogEntriesResource extends ResourceSupport {
+public class BlogEntryListResource extends ResourceSupport {
     private String title;
 
     private List<BlogEntryResource> entries;

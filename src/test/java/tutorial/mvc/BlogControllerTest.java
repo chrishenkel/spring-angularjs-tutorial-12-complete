@@ -8,18 +8,19 @@ import org.mockito.MockitoAnnotations;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
-import tutorial.core.entities.Blog;
-import tutorial.core.entities.BlogEntry;
+import tutorial.core.models.entities.Account;
+import tutorial.core.services.util.BlogEntryList;
+import tutorial.core.models.entities.Blog;
+import tutorial.core.models.entities.BlogEntry;
 import tutorial.core.services.BlogService;
 import tutorial.core.services.exceptions.BlogNotFoundException;
+import tutorial.core.services.util.BlogList;
 import tutorial.rest.mvc.BlogController;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.hamcrest.Matchers.endsWith;
-import static org.hamcrest.Matchers.hasItem;
-import static org.hamcrest.Matchers.is;
+import static org.hamcrest.Matchers.*;
 import static org.mockito.Matchers.any;
 import static org.mockito.Matchers.eq;
 import static org.mockito.Mockito.when;
@@ -50,6 +51,58 @@ public class BlogControllerTest {
     }
 
     @Test
+    public void findAllBlogs() throws Exception {
+        List<Blog> list = new ArrayList<Blog>();
+
+        Account owner = new Account();
+
+        Blog blogA = new Blog();
+        blogA.setId(1L);
+        blogA.setTitle("Title A");
+        blogA.setOwner(owner);
+        list.add(blogA);
+
+        Blog blogB = new Blog();
+        blogB.setId(2L);
+        blogB.setTitle("Title B");
+        blogB.setOwner(owner);
+        list.add(blogB);
+
+        BlogList allBlogs = new BlogList();
+        allBlogs.setBlogs(list);
+
+        when(blogService.findAllBlogs()).thenReturn(allBlogs);
+
+        mockMvc.perform(get("/rest/blogs"))
+                .andExpect(jsonPath("$.blogs[*].title",
+                        hasItems(endsWith("Title A"), endsWith("Title B"))))
+                .andExpect(status().isOk());
+    }
+
+    @Test
+    public void getBlog() throws Exception {
+        Blog blog = new Blog();
+        blog.setTitle("Test Title");
+        blog.setId(1L);
+
+        Account account = new Account();
+        account.setId(1L);
+        blog.setOwner(account);
+
+        when(blogService.find(1L)).thenReturn(blog);
+
+        mockMvc.perform(get("/rest/blogs/1"))
+                .andExpect(jsonPath("$.links[*].href",
+                        hasItem(endsWith("/blogs/1"))))
+                .andExpect(jsonPath("$.links[*].href",
+                        hasItem(endsWith("/blogs/1/entries"))))
+                .andExpect(jsonPath("$.links[*].href",
+                        hasItem(endsWith("/accounts/1"))))
+                .andExpect(jsonPath("$.title", is("Test Title")))
+                .andExpect(status().isOk());
+    }
+
+    @Test
     public void createBlogEntryExistingBlog() throws Exception {
         Blog blog = new Blog();
         blog.setId(1L);
@@ -58,7 +111,6 @@ public class BlogControllerTest {
         entry.setTitle("Test Title");
         entry.setId(1L);
 
-        when(blogService.find(1L)).thenReturn(blog);
         when(blogService.create(eq(1L), any(BlogEntry.class))).thenReturn(entry);
 
         mockMvc.perform(post("/rest/blogs/1/blog-entries")
@@ -96,7 +148,11 @@ public class BlogControllerTest {
         blogListings.add(entryA);
         blogListings.add(entryB);
 
-        when(blogService.findAll(1L)).thenReturn(blogListings);
+        BlogEntryList list = new BlogEntryList();
+        list.setEntries(blogListings);
+        list.setBlogId(1L);
+
+        when(blogService.findAll(1L)).thenReturn(list);
 
         mockMvc.perform(get("/rest/blogs/1/blog-entries"))
                 .andDo(print())
@@ -104,7 +160,6 @@ public class BlogControllerTest {
                 .andExpect(jsonPath("$.entries[*].title", hasItem(is("Test Title"))))
                 .andExpect(status().isOk());
     }
-
 
     @Test
     public void listBlogEntriesForNonExistingBlog() throws Exception {

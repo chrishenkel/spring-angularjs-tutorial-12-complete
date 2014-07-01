@@ -1,6 +1,6 @@
 package tutorial.core.services;
 
-import tutorial.core.entities.BlogEntry;
+import tutorial.core.models.entities.BlogEntry;
 
 /**
  * Created by Chris on 6/27/14.

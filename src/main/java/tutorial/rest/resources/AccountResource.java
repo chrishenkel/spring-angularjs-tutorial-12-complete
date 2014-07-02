@@ -21,10 +21,12 @@ public class AccountResource extends ResourceSupport {
         this.name = name;
     }
 
+    @JsonIgnore
     public String getPassword() {
         return password;
     }
 
+    @JsonProperty
     public void setPassword(String password) {
         this.password = password;
     }

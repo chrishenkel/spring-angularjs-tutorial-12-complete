@@ -42,11 +42,15 @@ public class AccountControllerTest {
 
     private MockMvc mockMvc;
 
+    private ArgumentCaptor<Account> accountCaptor;
+
     @Before
     public void setup() {
         MockitoAnnotations.initMocks(this);
 
         mockMvc = MockMvcBuilders.standaloneSetup(controller).build();
+
+        accountCaptor = ArgumentCaptor.forClass(Account.class);
     }
 
     @Test
@@ -102,6 +106,11 @@ public class AccountControllerTest {
                 .andExpect(header().string("Location", org.hamcrest.Matchers.endsWith("/rest/accounts/1")))
                 .andExpect(jsonPath("$.name", is(createdAccount.getName())))
                 .andExpect(status().isCreated());
+
+        verify(service).createAccount(accountCaptor.capture());
+
+        String password = accountCaptor.getValue().getPassword();
+        assertEquals("test", password);
     }
 
     @Test

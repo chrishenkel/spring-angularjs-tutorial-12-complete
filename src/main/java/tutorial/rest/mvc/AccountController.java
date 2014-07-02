@@ -80,6 +80,9 @@ public class AccountController {
         } catch(AccountDoesNotExistException exception)
         {
             throw new BadRequestException(exception);
+        } catch(BlogExistsException exception)
+        {
+            throw new ConflictException(exception);
         }
     }
 

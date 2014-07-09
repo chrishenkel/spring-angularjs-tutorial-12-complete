@@ -2,10 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8a9b97d-3194-424e-b657-6ba06d523fc7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/AccountController.java" afterPath="$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/AccountController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tutorial/mvc/AccountControllerTest.java" afterPath="$PROJECT_DIR$/src/test/java/tutorial/mvc/AccountControllerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/tutorial/rest/resources/AccountResource.java" afterPath="$PROJECT_DIR$/src/main/java/tutorial/rest/resources/AccountResource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/tutorial/core/services/BlogService.java" afterPath="$PROJECT_DIR$/src/main/java/tutorial/core/services/BlogService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/tutorial/core/repositories/AccountRepo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/tutorial/core/repositories/AccountRepoTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/tutorial/core/repositories/jpa/JpaAccountRepo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_dbcp2_2_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_4_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_4_3_5_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_4_3_5_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_1_1_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_3_GA.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_annotations_1_2_0_Beta1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_0_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_0_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_0_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/spring/business-config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/tutorial/core/models/entities/Account.java" afterPath="$PROJECT_DIR$/src/main/java/tutorial/core/models/entities/Account.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic-web-app.iml" afterPath="$PROJECT_DIR$/basic-web-app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="basic-web-app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,37 +91,72 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AccountControllerTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tutorial/mvc/AccountControllerTest.java">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="46" selection-start="3554" selection-end="3564" vertical-scroll-proportion="0.0" vertical-offset="1231" max-vertical-offset="3168">
+            <state line="39" column="6" selection-start="1476" selection-end="1476" vertical-scroll-proportion="0.0" vertical-offset="546" max-vertical-offset="3288">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/AccountController.java">
+      <file leaf-file-name="Account.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/models/entities/Account.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="0" selection-start="3491" selection-end="3491" vertical-scroll-proportion="0.0" vertical-offset="1221" max-vertical-offset="1800">
+            <state line="23" column="0" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0" vertical-offset="24" max-vertical-offset="816">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountRepo.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/repositories/AccountRepo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="54" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JpaAccountRepo.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/repositories/jpa/JpaAccountRepo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="13" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0" vertical-offset="626" max-vertical-offset="984">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountRepoTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tutorial/core/repositories/AccountRepoTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="11" selection-start="787" selection-end="787" vertical-scroll-proportion="0.55140185" vertical-offset="447" max-vertical-offset="1200">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="business-config.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/business-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="0" selection-start="1965" selection-end="1965" vertical-scroll-proportion="0.0" vertical-offset="687" max-vertical-offset="1152">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountResource.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/resources/AccountResource.java">
+      <file leaf-file-name="mvc-dispatcher-servlet.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="17" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0" vertical-offset="261" max-vertical-offset="840">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConflictException.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/exceptions/ConflictException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="528">
+            <state line="9" column="11" selection-start="0" selection-end="961" vertical-scroll-proportion="0.0" vertical-offset="6" max-vertical-offset="600">
               <folding />
             </state>
           </provider>
@@ -108,27 +165,7 @@
       <file leaf-file-name="AccountService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/services/AccountService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="1" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0" vertical-offset="101" max-vertical-offset="432">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlogService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/services/BlogService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="32" selection-start="890" selection-end="890" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="792">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlogEntryService.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/services/BlogEntryService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="690" selection-end="690" vertical-scroll-proportion="1.0849056" vertical-offset="63" max-vertical-offset="600">
+            <state line="8" column="33" selection-start="196" selection-end="340" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
               <folding />
             </state>
           </provider>
@@ -152,12 +189,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/tutorial/mvc/BlogEntryController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tutorial/entities/BlogEntry.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tutorial/core/entities/BlogEntry.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tutorial/rest/resources/BlogEntryResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tutorial/rest/resources/Blog.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tutorial/core/services/exceptions/BlogEntryCreateException.java" />
         <option value="$PROJECT_DIR$/src/test/java/tutorial/core/services/exceptions/CreateException.java" />
         <option value="$PROJECT_DIR$/src/main/java/tutorial/exceptions/CreateException.java" />
         <option value="$PROJECT_DIR$/src/main/java/tutorial/core/services/exceptions/CreateException.java" />
@@ -203,6 +234,12 @@
         <option value="$PROJECT_DIR$/src/test/java/tutorial/mvc/AccountControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/tutorial/rest/resources/AccountResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/AccountController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/tutorial/core/models/entities/Account.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tutorial/core/repositories/AccountRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/business-config.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/tutorial/core/repositories/AccountRepoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tutorial/core/repositories/jpa/JpaAccountRepo.java" />
       </list>
     </option>
   </component>
@@ -274,7 +311,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1280" />
+    <option name="x" value="-6" />
+    <option name="width" value="1291" />
     <option name="height" value="724" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -303,8 +341,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -344,12 +382,60 @@
               <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basic-web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basic-web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
+              <option name="myItemId" value="tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basic-web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basic-web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="repositories" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -427,57 +513,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tutorial" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="basic-web-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="basic-web-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tutorial" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="asm" />
+              <option name="myItemId" value="spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basic-web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basic-web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tutorial" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -507,45 +573,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="basic-web-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="basic-web-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tutorial" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exceptions" />
+              <option name="myItemId" value="core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -579,7 +607,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
+              <option name="myItemId" value="repositories" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -613,83 +641,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
+              <option name="myItemId" value="repositories" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="basic-web-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="basic-web-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tutorial" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exceptions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="basic-web-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="basic-web-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tutorial" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="entities" />
+              <option name="myItemId" value="jpa" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -716,6 +672,9 @@
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="SearchEverywhereHistory" value="" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -729,33 +688,7 @@
       <recent name="tutorial" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.tutorial.mvc in basic-web-app">
-    <configuration default="false" name="AccountControllerTest and 2 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="basic-web-app" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns>
-        <pattern testClass="tutorial.mvc.AccountControllerTest" />
-        <pattern testClass="tutorial.mvc.BlogControllerTest" />
-        <pattern testClass="tutorial.mvc.BlogEntryControllerTest" />
-      </patterns>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.AccountRepoTest">
     <configuration default="false" name="AccountControllerTest.getExistingAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="basic-web-app" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -848,10 +781,52 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="AccountRepoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="basic-web-app" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tutorial.core.repositories" />
+      <option name="MAIN_CLASS_NAME" value="tutorial.core.repositories.AccountRepoTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
@@ -876,45 +851,12 @@
       </MavenSettings>
       <method />
     </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -942,6 +884,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -998,19 +953,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.AccountControllerTest and 2 more" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.AccountControllerTest.getExistingAccount" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.AccountControllerTest.createAccountNonExistingUsername" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.tutorial.mvc in basic-web-app" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.AccountControllerTest.createBlogExistingBlogName" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.AccountControllerTest.getExistingAccount" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.AccountControllerTest.createAccountNonExistingUsername" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.tutorial.mvc in basic-web-app" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.AccountControllerTest.createBlogExistingBlogName" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.AccountRepoTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.tutorial.mvc in basic-web-app" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.AccountControllerTest.createBlogExistingBlogName" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.AccountControllerTest.createAccountNonExistingUsername" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.AccountControllerTest.getExistingAccount" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.AccountControllerTest and 2 more" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AccountRepoTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.tutorial.mvc in basic-web-app" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.AccountControllerTest.createBlogExistingBlogName" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.AccountControllerTest.createAccountNonExistingUsername" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.AccountControllerTest.getExistingAccount" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -1045,8 +1000,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="724" extended-state="0" />
-    <editor active="false" />
+    <frame x="-6" y="0" width="1291" height="724" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1064,13 +1019,13 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20097245" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39689034" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3647059" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39334956" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35966387" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1110,34 +1065,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/BlogEntryController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="5" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="528">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="10" selection-start="1799" selection-end="1799" vertical-scroll-proportion="0.0" vertical-offset="1248" max-vertical-offset="1392">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="4" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="528">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="50" selection-start="782" selection-end="782" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="600">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/BlogEntryController.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="0" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0" vertical-offset="384" max-vertical-offset="528">
           <folding />
         </state>
@@ -1158,20 +1085,6 @@
     <entry file="file://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.0.5.RELEASE/spring-webmvc-4.0.5.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor">
         <state line="335" column="16" selection-start="10477" selection-end="10477" vertical-scroll-proportion="0.0" vertical-offset="7770" max-vertical-offset="8376" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="3" selection-start="956" selection-end="956" vertical-scroll-proportion="0.0" vertical-offset="6" max-vertical-offset="600">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="839" selection-end="839" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="2832">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.5.RELEASE/spring-web-4.0.5.RELEASE.jar!/org/springframework/web/bind/annotation/RequestMapping.class">
@@ -1291,13 +1204,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/models/entities/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="672">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/models/entities/Blog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="26" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="5" max-vertical-offset="720">
@@ -1410,36 +1316,179 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/exceptions/ConflictException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="528">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/services/AccountService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="1" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/services/BlogService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="32" selection-start="890" selection-end="890" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="792">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/services/BlogEntryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0" vertical-offset="8" max-vertical-offset="600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/exceptions/ConflictException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="403" selection-end="403" vertical-scroll-proportion="0.67250437" vertical-offset="0" max-vertical-offset="571">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="6" selection-start="1476" selection-end="1476" vertical-scroll-proportion="0.0" vertical-offset="546" max-vertical-offset="3288">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/models/entities/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0" vertical-offset="24" max-vertical-offset="816">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/services/BlogEntryService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/services/AccountService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="690" selection-end="690" vertical-scroll-proportion="1.0849056" vertical-offset="63" max-vertical-offset="600">
+        <state line="8" column="33" selection-start="196" selection-end="340" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/repositories/AccountRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="54" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="11" selection-start="0" selection-end="961" vertical-scroll-proportion="0.0" vertical-offset="6" max-vertical-offset="600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/business-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="0" selection-start="1965" selection-end="1965" vertical-scroll-proportion="0.0" vertical-offset="687" max-vertical-offset="1152">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/repositories/jpa/JpaAccountRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="13" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0" vertical-offset="626" max-vertical-offset="984">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tutorial/core/repositories/AccountRepoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="11" selection-start="787" selection-end="787" vertical-scroll-proportion="0.55140185" vertical-offset="447" max-vertical-offset="1200">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>basic-web-app</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 

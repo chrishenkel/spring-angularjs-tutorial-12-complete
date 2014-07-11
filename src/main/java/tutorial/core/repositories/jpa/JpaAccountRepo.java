@@ -27,9 +27,4 @@ public class JpaAccountRepo implements AccountRepo {
         em.persist(data);
         return data;
     }
-
-    @Override
-    public Blog createBlog(Long accountId, Blog data) {
-        return null;
-    }
 }

@@ -12,4 +12,5 @@ public interface BlogRepo {
     public Blog createBlog(Blog data);
     public BlogList findAllBlogs();
     public Blog findBlog(Long id);
+    public Blog findBlogByTitle(String title);
 }

@@ -2,6 +2,8 @@ package tutorial.core.repositories;
 
 import tutorial.core.models.entities.BlogEntry;
 
+import java.util.List;
+
 /**
  * Created by Chris on 7/10/14.
  */
@@ -15,4 +17,8 @@ public interface BlogEntryRepo {
      * @return the updated BlogEntry or null if the BlogEntry with the id cannot be found
      */
     public BlogEntry updateBlogEntry(Long id, BlogEntry data);
+
+    public BlogEntry createBlogEntry(BlogEntry data);
+
+    public List<BlogEntry> findByBlogId(Long blogId);
 }

@@ -1,11 +1,14 @@
 package tutorial.core.repositories.jpa;
 
 import org.springframework.stereotype.Repository;
+import tutorial.core.models.entities.Account;
 import tutorial.core.models.entities.BlogEntry;
 import tutorial.core.repositories.BlogEntryRepo;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import javax.persistence.Query;
+import java.util.List;
 
 /**
  * Created by Chris on 7/10/14.
@@ -32,5 +35,18 @@ public class JpaBlogEntryRepo implements BlogEntryRepo {
         BlogEntry entry = em.find(BlogEntry.class, id);
         entry.setTitle(data.getTitle());
         return entry;
+    }
+
+    @Override
+    public BlogEntry createBlogEntry(BlogEntry data) {
+        em.persist(data);
+        return data;
+    }
+
+    @Override
+    public List<BlogEntry> findByBlogId(Long blogId) {
+        Query query = em.createQuery("SELECT Blog b FROM Blog b WHERE b.id=?1");
+        query.setParameter(1, blogId);
+        return query.getResultList();
     }
 }

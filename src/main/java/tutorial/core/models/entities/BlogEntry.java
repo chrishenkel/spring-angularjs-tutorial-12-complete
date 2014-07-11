@@ -1,14 +1,23 @@
 package tutorial.core.models.entities;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.ManyToOne;
+
 /**
  * Created by Chris on 6/19/14.
  */
+@Entity
 public class BlogEntry {
 
+    @Id
+    @GeneratedValue
     private Long id;
 
     private String title;
 
+    @ManyToOne
     private Blog blog;
 
     public String getTitle() {

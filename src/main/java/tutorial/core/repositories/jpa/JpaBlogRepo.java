@@ -26,7 +26,7 @@ public class JpaBlogRepo implements BlogRepo {
 
     @Override
     public BlogList findAllBlogs() {
-        Query query = em.createQuery("SELECT blog from Blog blog");
+        Query query = em.createQuery("SELECT b from Blog b");
         return new BlogList(query.getResultList());
     }
 
@@ -37,7 +37,7 @@ public class JpaBlogRepo implements BlogRepo {
 
     @Override
     public Blog findBlogByTitle(String title) {
-        Query query = em.createQuery("SELECT Blog b from Blog b where b.title=?1");
+        Query query = em.createQuery("SELECT b from Blog b where b.title=?1");
         query.setParameter(1, title);
         List<Blog> blogs = query.getResultList();
         if(blogs.isEmpty()) {

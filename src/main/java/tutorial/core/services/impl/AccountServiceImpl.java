@@ -2,6 +2,7 @@ package tutorial.core.services.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import tutorial.core.models.entities.Account;
 import tutorial.core.models.entities.Blog;
 import tutorial.core.repositories.AccountRepo;
@@ -15,6 +16,7 @@ import tutorial.core.services.exceptions.BlogExistsException;
  * Created by Chris on 7/10/14.
  */
 @Service
+@Transactional
 public class AccountServiceImpl implements AccountService {
 
     @Autowired

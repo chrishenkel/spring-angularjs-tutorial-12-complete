@@ -45,7 +45,7 @@ public class JpaBlogEntryRepo implements BlogEntryRepo {
 
     @Override
     public List<BlogEntry> findByBlogId(Long blogId) {
-        Query query = em.createQuery("SELECT Blog b FROM Blog b WHERE b.id=?1");
+        Query query = em.createQuery("SELECT b FROM BlogEntry b WHERE b.blog.id=?1");
         query.setParameter(1, blogId);
         return query.getResultList();
     }

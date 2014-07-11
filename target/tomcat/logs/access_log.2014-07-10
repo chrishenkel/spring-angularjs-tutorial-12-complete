@@ -73,3 +73,12 @@
 127.0.0.1 - - [10/Jul/2014:18:06:05 -0400] "GET /basic-web-app/app/index.html HTTP/1.1" 200 17 http-bio-8080-exec-3 17
 127.0.0.1 - - [10/Jul/2014:18:06:09 -0400] "GET /basic-web-app/app/index.html HTTP/1.1" 304 - http-bio-8080-exec-5 2
 127.0.0.1 - - [10/Jul/2014:18:06:11 -0400] "GET /basic-web-app/app/index.html HTTP/1.1" 200 11 http-bio-8080-exec-6 3
+127.0.0.1 - - [10/Jul/2014:23:51:48 -0400] "GET /basic-web-app/test HTTP/1.1" 405 1045 http-bio-8080-exec-1 1024
+127.0.0.1 - - [10/Jul/2014:23:51:48 -0400] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-3 0
+127.0.0.1 - - [10/Jul/2014:23:53:12 -0400] "POST /basic-web-app/rest/accounts HTTP/1.1" 404 949 http-bio-8080-exec-5 3
+127.0.0.1 - - [10/Jul/2014:23:54:09 -0400] "POST /basic-web-app/rest/accounts HTTP/1.1" 404 949 http-bio-8080-exec-6 2
+127.0.0.1 - - [10/Jul/2014:23:55:53 -0400] "POST /basic-web-app/rest/accounts HTTP/1.1" 404 949 http-bio-8080-exec-8 2
+127.0.0.1 - - [10/Jul/2014:23:55:54 -0400] "POST /basic-web-app/rest/accounts HTTP/1.1" 404 949 http-bio-8080-exec-9 1
+127.0.0.1 - - [10/Jul/2014:23:56:21 -0400] "GET /basic-web-app/rest/blogs HTTP/1.1" 404 949 http-bio-8080-exec-10 1
+127.0.0.1 - - [10/Jul/2014:23:56:21 -0400] "GET /basic-web-app/rest/blogs HTTP/1.1" 404 949 http-bio-8080-exec-10 1
+127.0.0.1 - - [10/Jul/2014:23:57:28 -0400] "POST /basic-web-app/rest/accounts HTTP/1.1" 500 10083 http-bio-8080-exec-1 949

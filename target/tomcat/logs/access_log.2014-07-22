@@ -123,3 +123,5 @@
 127.0.0.1 - - [22/Jul/2014:18:22:51 -0400] "POST /basic-web-app/rest/accounts/1/blog HTTP/1.1" 404 949 http-bio-8080-exec-3 4
 127.0.0.1 - - [22/Jul/2014:18:22:57 -0400] "POST /basic-web-app/rest/accounts/1/blogs HTTP/1.1" 201 282 http-bio-8080-exec-3 60
 127.0.0.1 - - [22/Jul/2014:18:24:06 -0400] "POST /basic-web-app/rest/blogs/1/blog-entries HTTP/1.1" 201 201 http-bio-8080-exec-7 19
+127.0.0.1 - - [22/Jul/2014:18:50:00 -0400] "POST /basic-web-app/rest/accounts/1/blogs HTTP/1.1" 500 9947 http-bio-8080-exec-1 190
+127.0.0.1 - - [22/Jul/2014:18:50:17 -0400] "POST /basic-web-app/rest/accounts HTTP/1.1" 500 9947 http-bio-8080-exec-2 83

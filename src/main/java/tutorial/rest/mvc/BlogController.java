@@ -35,7 +35,6 @@ import java.net.URI;
 public class BlogController {
     private BlogService blogService;
 
-    @Autowired
     public BlogController(BlogService blogService) {
         this.blogService = blogService;
     }

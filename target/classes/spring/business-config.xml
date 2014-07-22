@@ -36,8 +36,6 @@
         <property name="packagesToScan" value="tutorial.core.models.entities"/>
     </bean>
 
-    <context:component-scan base-package="tutorial.core.services.impl"/>
-
     <tx:annotation-driven/>
 
     <bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager"/>

@@ -29,11 +29,6 @@ angular.module( 'ngBoilerplate.about', [
   $scope.accountName = localStorage.accountName;
   $scope.self = localStorage.self;
 
-  if(localStorage.loggedIn)
-  {
-      localStorage.self.get(null, function() {
-      });
-  }
 })
 
 ;

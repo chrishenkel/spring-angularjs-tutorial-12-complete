@@ -42,7 +42,7 @@ angular.module( 'ngBoilerplate.signup', [
  */
 .controller( 'AccountCtrl', function AccountController( $scope, $resource, $location) {
   $scope.submit = function() {
-    var Account = $resource('http://localhost:8080/basic-web-app/rest/accounts');
+    var Account = $resource('/basic-web-app/rest/accounts');
     var account =  new Account();
     account.name = $scope.username;
     account.password = $scope.password;

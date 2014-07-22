@@ -91,7 +91,7 @@ public class BlogControllerTest {
                 .andExpect(jsonPath("$.links[*].href",
                         hasItem(endsWith("/blogs/1"))))
                 .andExpect(jsonPath("$.links[*].href",
-                        hasItem(endsWith("/blogs/1/entries"))))
+                        hasItem(endsWith("/blogs/1/blog-entries"))))
                 .andExpect(jsonPath("$.links[*].href",
                         hasItem(endsWith("/accounts/1"))))
                 .andExpect(jsonPath("$.links[*].rel",

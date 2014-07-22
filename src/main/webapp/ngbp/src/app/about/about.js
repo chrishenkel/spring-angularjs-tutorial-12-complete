@@ -24,6 +24,16 @@ angular.module( 'ngBoilerplate.about', [
     "And another choice for you.",
     "but wait! A third!"
   ];
+
+  $scope.loggedIn = localStorage.loggedIn;
+  $scope.accountName = localStorage.accountName;
+  $scope.self = localStorage.self;
+
+  if(localStorage.loggedIn)
+  {
+      localStorage.self.get(null, function() {
+      });
+  }
 })
 
 ;

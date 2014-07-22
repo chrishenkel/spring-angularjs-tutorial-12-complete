@@ -3,11 +3,15 @@ angular.module( 'ngBoilerplate', [
   'templates-common',
   'ngBoilerplate.home',
   'ngBoilerplate.about',
-  'ui.router'
+  'ngBoilerplate.signup',
+  'ui.router',
+  'ngResource',
+  'hateoas'
 ])
 
-.config( function myAppConfig ( $stateProvider, $urlRouterProvider ) {
+.config( function myAppConfig ( $stateProvider, $urlRouterProvider, HateoasInterceptorProvider) {
   $urlRouterProvider.otherwise( '/home' );
+    HateoasInterceptorProvider.transformAllResponses();
 })
 
 .run( function run () {

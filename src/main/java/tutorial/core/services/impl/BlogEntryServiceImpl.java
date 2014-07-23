@@ -10,8 +10,11 @@ import tutorial.core.services.BlogEntryService;
 /**
  * Created by Chris on 7/10/14.
  */
+@Service
+@Transactional
 public class BlogEntryServiceImpl implements BlogEntryService {
 
+    @Autowired
     private BlogEntryRepo entryRepo;
 
     @Override

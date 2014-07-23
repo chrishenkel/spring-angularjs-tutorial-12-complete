@@ -19,10 +19,14 @@ import java.util.List;
 /**
  * Created by Chris on 7/10/14.
  */
+@Service
+@Transactional
 public class AccountServiceImpl implements AccountService {
 
+    @Autowired
     private AccountRepo accountRepo;
 
+    @Autowired
     private BlogRepo blogRepo;
 
     @Override

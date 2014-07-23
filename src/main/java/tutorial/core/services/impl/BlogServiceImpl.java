@@ -18,10 +18,14 @@ import javax.persistence.PersistenceContext;
 /**
  * Created by Chris on 7/10/14.
  */
+@Service
+@Transactional
 public class BlogServiceImpl implements BlogService {
 
+    @Autowired
     private BlogRepo blogRepo;
 
+    @Autowired
     private BlogEntryRepo entryRepo;
 
     @Override

@@ -18,6 +18,7 @@ import tutorial.rest.resources.asm.BlogEntryResourceAsm;
 public class BlogEntryController {
     private BlogEntryService service;
 
+    @Autowired
     public BlogEntryController(BlogEntryService service)
     {
         this.service = service;

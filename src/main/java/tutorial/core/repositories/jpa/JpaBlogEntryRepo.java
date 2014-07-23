@@ -35,6 +35,7 @@ public class JpaBlogEntryRepo implements BlogEntryRepo {
     public BlogEntry updateBlogEntry(Long id, BlogEntry data) {
         BlogEntry entry = em.find(BlogEntry.class, id);
         entry.setTitle(data.getTitle());
+        entry.setContent(data.getContent());
         return entry;
     }
 

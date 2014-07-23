@@ -17,6 +17,8 @@ public class BlogEntry {
 
     private String title;
 
+    private String content;
+
     @ManyToOne
     private Blog blog;
 
@@ -42,5 +44,13 @@ public class BlogEntry {
 
     public void setBlog(Blog blog) {
         this.blog = blog;
+    }
+
+    public String getContent() {
+        return content;
+    }
+
+    public void setContent(String content) {
+        this.content = content;
     }
 }

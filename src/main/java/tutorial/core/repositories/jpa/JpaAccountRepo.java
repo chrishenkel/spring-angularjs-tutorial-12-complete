@@ -28,13 +28,6 @@ public class JpaAccountRepo implements AccountRepo {
     }
 
     @Override
-    public List<Account> findAccountsByName(String name) {
-        Query query = em.createQuery("SELECT a FROM Account a WHERE a.name=?1");
-        query.setParameter(1, name);
-        return query.getResultList();
-    }
-
-    @Override
     public Account findAccount(Long id) {
         return em.find(Account.class, id);
     }

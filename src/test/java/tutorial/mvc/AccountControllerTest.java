@@ -234,4 +234,30 @@ public class AccountControllerTest {
                 .andExpect(status().isOk());
     }
 
+
+    @Test
+    public void findAccountsByName() throws Exception {
+        List<Account> accounts = new ArrayList<Account>();
+
+        Account accountA = new Account();
+        accountA.setId(1L);
+        accountA.setPassword("accountA");
+        accountA.setName("accountA");
+        accounts.add(accountA);
+
+        Account accountB = new Account();
+        accountB.setId(1L);
+        accountB.setPassword("accountB");
+        accountB.setName("accountB");
+        accounts.add(accountB);
+
+        AccountList accountList = new AccountList(accounts);
+
+        when(service.findAllAccounts()).thenReturn(accountList);
+
+        mockMvc.perform(get("/rest/accounts").param("name", "accountA"))
+                .andExpect(jsonPath("$.accounts[*].name",
+                        everyItem(endsWith("accountA"))))
+                .andExpect(status().isOk());
+    }
 }

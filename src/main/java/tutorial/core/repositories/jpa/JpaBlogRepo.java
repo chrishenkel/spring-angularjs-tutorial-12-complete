@@ -46,4 +46,11 @@ public class JpaBlogRepo implements BlogRepo {
             return blogs.get(0);
         }
     }
+
+    @Override
+    public BlogList findBlogsByAccount(Long accountId) {
+        Query query = em.createQuery("SELECT b from Blog b where b.owner.id=?1");
+        query.setParameter(1, accountId);
+        return new BlogList(query.getResultList());
+    }
 }

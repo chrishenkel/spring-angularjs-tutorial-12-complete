@@ -14,6 +14,8 @@ import tutorial.core.services.exceptions.BlogExistsException;
 import tutorial.core.services.util.AccountList;
 import tutorial.core.services.util.BlogList;
 
+import java.util.List;
+
 /**
  * Created by Chris on 7/10/14.
  */
@@ -67,16 +69,16 @@ public class AccountServiceImpl implements AccountService {
         {
             throw new AccountDoesNotExistException();
         }
-        return blogRepo.findBlogsByAccount(accountId);
+        return new BlogList(blogRepo.findBlogsByAccount(accountId));
     }
 
     @Override
     public AccountList findAllAccounts() {
-        return accountRepo.findAllAccounts();
+        return new AccountList(accountRepo.findAllAccounts());
     }
 
     @Override
     public AccountList findByAccountName(String name) {
-        return accountRepo.findAccountsByName(name);
+        return new AccountList(accountRepo.findAccountsByName(name));
     }
 }

@@ -22,16 +22,16 @@ public class JpaAccountRepo implements AccountRepo {
     private EntityManager em;
 
     @Override
-    public AccountList findAllAccounts() {
+    public List<Account> findAllAccounts() {
         Query query = em.createQuery("SELECT a FROM Account a");
-        return new AccountList(query.getResultList());
+        return query.getResultList();
     }
 
     @Override
-    public AccountList findAccountsByName(String name) {
+    public List<Account> findAccountsByName(String name) {
         Query query = em.createQuery("SELECT a FROM Account a WHERE a.name=?1");
         query.setParameter(1, name);
-        return new AccountList(query.getResultList());
+        return query.getResultList();
     }
 
     @Override

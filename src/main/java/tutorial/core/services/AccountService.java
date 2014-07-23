@@ -5,6 +5,8 @@ import tutorial.core.models.entities.Blog;
 import tutorial.core.services.util.AccountList;
 import tutorial.core.services.util.BlogList;
 
+import java.util.List;
+
 /**
  * Created by Chris on 6/28/14.
  */

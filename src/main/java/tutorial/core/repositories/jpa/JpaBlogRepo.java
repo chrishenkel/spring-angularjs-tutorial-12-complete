@@ -25,9 +25,9 @@ public class JpaBlogRepo implements BlogRepo {
     }
 
     @Override
-    public BlogList findAllBlogs() {
+    public List<Blog> findAllBlogs() {
         Query query = em.createQuery("SELECT b from Blog b");
-        return new BlogList(query.getResultList());
+        return query.getResultList();
     }
 
     @Override
@@ -48,9 +48,9 @@ public class JpaBlogRepo implements BlogRepo {
     }
 
     @Override
-    public BlogList findBlogsByAccount(Long accountId) {
+    public List<Blog> findBlogsByAccount(Long accountId) {
         Query query = em.createQuery("SELECT b from Blog b where b.owner.id=?1");
         query.setParameter(1, accountId);
-        return new BlogList(query.getResultList());
+        return query.getResultList();
     }
 }

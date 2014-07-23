@@ -38,7 +38,7 @@ public class BlogServiceImpl implements BlogService {
 
     @Override
     public BlogList findAllBlogs() {
-        return blogRepo.findAllBlogs();
+        return new BlogList(blogRepo.findAllBlogs());
     }
 
     @Override
@@ -48,7 +48,7 @@ public class BlogServiceImpl implements BlogService {
         {
             throw new BlogNotFoundException();
         }
-        return entryRepo.findByBlogId(blogId);
+        return new BlogEntryList(blogId, entryRepo.findByBlogId(blogId));
     }
 
     @Override

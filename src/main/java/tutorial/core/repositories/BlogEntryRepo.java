@@ -21,5 +21,5 @@ public interface BlogEntryRepo {
 
     public BlogEntry createBlogEntry(BlogEntry data);
 
-    public BlogEntryList findByBlogId(Long blogId);
+    public List<BlogEntry> findByBlogId(Long blogId);
 }

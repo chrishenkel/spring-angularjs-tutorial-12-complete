@@ -10,8 +10,8 @@ import java.util.List;
  * Created by Chris on 7/9/14.
  */
 public interface AccountRepo {
-    public AccountList findAllAccounts();
-    public AccountList findAccountsByName(String name);
+    public List<Account> findAllAccounts();
+    public List<Account> findAccountsByName(String name);
     public Account findAccount(Long id);
     public Account findAccountByName(String name);
     public Account createAccount(Account data);

@@ -15,13 +15,16 @@ import tutorial.core.services.AccountService;
 import tutorial.core.services.exceptions.AccountDoesNotExistException;
 import tutorial.core.services.exceptions.AccountExistsException;
 import tutorial.core.services.exceptions.BlogExistsException;
+import tutorial.core.services.util.AccountList;
 import tutorial.core.services.util.BlogList;
 import tutorial.rest.exceptions.BadRequestException;
 import tutorial.rest.exceptions.ConflictException;
 import tutorial.rest.exceptions.NotFoundException;
+import tutorial.rest.resources.AccountListResource;
 import tutorial.rest.resources.AccountResource;
 import tutorial.rest.resources.BlogListResource;
 import tutorial.rest.resources.BlogResource;
+import tutorial.rest.resources.asm.AccountListResourceAsm;
 import tutorial.rest.resources.asm.AccountResourceAsm;
 import tutorial.rest.resources.asm.BlogListResourceAsm;
 import tutorial.rest.resources.asm.BlogResourceAsm;
@@ -38,6 +41,13 @@ public class AccountController {
 
     public AccountController(AccountService accountService) {
         this.accountService = accountService;
+    }
+
+    @RequestMapping(method = RequestMethod.GET)
+    public ResponseEntity<AccountListResource> findAllAccounts() {
+        AccountList list = accountService.findAllAccounts();
+        AccountListResource res = new AccountListResourceAsm().toResource(list);
+        return new ResponseEntity<AccountListResource>(res, HttpStatus.OK);
     }
 
     @RequestMapping(method = RequestMethod.POST)
@@ -104,5 +114,7 @@ public class AccountController {
             throw new NotFoundException(exception);
         }
     }
+
+
 
 }

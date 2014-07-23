@@ -1,5 +1,6 @@
 package tutorial.mvc;
 
+import org.hamcrest.Matchers;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.ArgumentCaptor;
@@ -15,6 +16,7 @@ import tutorial.core.services.AccountService;
 import tutorial.core.services.exceptions.AccountDoesNotExistException;
 import tutorial.core.services.exceptions.AccountExistsException;
 import tutorial.core.services.exceptions.BlogExistsException;
+import tutorial.core.services.util.AccountList;
 import tutorial.core.services.util.BlogList;
 import tutorial.rest.mvc.AccountController;
 
@@ -22,6 +24,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static org.hamcrest.Matchers.*;
+import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertEquals;
 import static org.mockito.Matchers.any;
 import static org.mockito.Matchers.eq;
@@ -154,7 +157,7 @@ public class AccountControllerTest {
         mockMvc.perform(post("/rest/accounts")
                 .content("{\"name\":\"test\",\"password\":\"test\"}")
                 .contentType(MediaType.APPLICATION_JSON))
-                .andExpect(header().string("Location", org.hamcrest.Matchers.endsWith("/rest/accounts/1")))
+                .andExpect(header().string("Location", endsWith("/rest/accounts/1")))
                 .andExpect(jsonPath("$.name", is(createdAccount.getName())))
                 .andExpect(status().isCreated());
 
@@ -192,7 +195,9 @@ public class AccountControllerTest {
                 .andDo(print())
                 .andExpect(jsonPath("$.password", is(nullValue())))
                 .andExpect(jsonPath("$.name", is(foundAccount.getName())))
-                .andExpect(status().isOk());
+                .andExpect(jsonPath("$.links[*].rel",
+                        hasItems(endsWith("self"), endsWith("blogs"))))
+                        .andExpect(status().isOk());
     }
 
     @Test
@@ -202,4 +207,31 @@ public class AccountControllerTest {
         mockMvc.perform(get("/rest/accounts/1"))
                 .andExpect(status().isNotFound());
     }
+
+    @Test
+    public void findAllAccounts() throws Exception {
+        List<Account> accounts = new ArrayList<Account>();
+
+        Account accountA = new Account();
+        accountA.setId(1L);
+        accountA.setPassword("accountA");
+        accountA.setName("accountA");
+        accounts.add(accountA);
+
+        Account accountB = new Account();
+        accountB.setId(1L);
+        accountB.setPassword("accountB");
+        accountB.setName("accountB");
+        accounts.add(accountB);
+
+        AccountList accountList = new AccountList(accounts);
+
+        when(service.findAllAccounts()).thenReturn(accountList);
+
+        mockMvc.perform(get("/rest/accounts"))
+                .andExpect(jsonPath("$.accounts[*].name",
+                        hasItems(endsWith("accountA"), endsWith("accountB"))))
+                .andExpect(status().isOk());
+    }
+
 }

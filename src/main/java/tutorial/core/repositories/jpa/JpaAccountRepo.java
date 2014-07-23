@@ -4,6 +4,7 @@ import org.springframework.stereotype.Repository;
 import tutorial.core.models.entities.Account;
 import tutorial.core.models.entities.Blog;
 import tutorial.core.repositories.AccountRepo;
+import tutorial.core.services.util.AccountList;
 import tutorial.core.services.util.BlogList;
 
 import javax.persistence.EntityManager;
@@ -19,6 +20,19 @@ public class JpaAccountRepo implements AccountRepo {
 
     @PersistenceContext
     private EntityManager em;
+
+    @Override
+    public AccountList findAllAccounts() {
+        Query query = em.createQuery("SELECT a FROM Account a");
+        return new AccountList(query.getResultList());
+    }
+
+    @Override
+    public AccountList findAccountsByName(String name) {
+        Query query = em.createQuery("SELECT a FROM Account a WHERE a.name=?1");
+        query.setParameter(1, name);
+        return new AccountList(query.getResultList());
+    }
 
     @Override
     public Account findAccount(Long id) {

@@ -48,7 +48,7 @@ public class BlogServiceImpl implements BlogService {
         {
             throw new BlogNotFoundException();
         }
-        return new BlogEntryList(blogId, entryRepo.findByBlogId(blogId));
+        return entryRepo.findByBlogId(blogId);
     }
 
     @Override

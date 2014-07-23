@@ -4,6 +4,7 @@ import org.springframework.stereotype.Repository;
 import tutorial.core.models.entities.Account;
 import tutorial.core.models.entities.BlogEntry;
 import tutorial.core.repositories.BlogEntryRepo;
+import tutorial.core.services.util.BlogEntryList;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
@@ -44,9 +45,9 @@ public class JpaBlogEntryRepo implements BlogEntryRepo {
     }
 
     @Override
-    public List<BlogEntry> findByBlogId(Long blogId) {
+    public BlogEntryList findByBlogId(Long blogId) {
         Query query = em.createQuery("SELECT b FROM BlogEntry b WHERE b.blog.id=?1");
         query.setParameter(1, blogId);
-        return query.getResultList();
+        return new BlogEntryList(blogId, query.getResultList());
     }
 }

@@ -1,6 +1,7 @@
 package tutorial.core.repositories;
 
 import tutorial.core.models.entities.BlogEntry;
+import tutorial.core.services.util.BlogEntryList;
 
 import java.util.List;
 
@@ -20,5 +21,5 @@ public interface BlogEntryRepo {
 
     public BlogEntry createBlogEntry(BlogEntry data);
 
-    public List<BlogEntry> findByBlogId(Long blogId);
+    public BlogEntryList findByBlogId(Long blogId);
 }

@@ -1,0 +1,12 @@
+127.0.0.1 - - [31/Jul/2014:22:55:21 -0400] "GET /basic-web-app/app/index.html HTTP/1.1" 200 5979 http-bio-8080-exec-1 1507
+127.0.0.1 - - [31/Jul/2014:22:55:22 -0400] "GET /basic-web-app/app/vendor/placeholders/angular-placeholders-0.0.1-SNAPSHOT.min.js HTTP/1.1" 200 12541 http-bio-8080-exec-4 87
+127.0.0.1 - - [31/Jul/2014:22:55:22 -0400] "GET /basic-web-app/app/src/app/about/about.js HTTP/1.1" 200 619 http-bio-8080-exec-7 87
+127.0.0.1 - - [31/Jul/2014:22:55:22 -0400] "GET /basic-web-app/app/src/app/home/home.js HTTP/1.1" 200 1380 http-bio-8080-exec-8 3
+127.0.0.1 - - [31/Jul/2014:22:55:22 -0400] "GET /basic-web-app/app/src/app/app.js HTTP/1.1" 200 621 http-bio-8080-exec-9 3
+127.0.0.1 - - [31/Jul/2014:22:55:22 -0400] "GET /basic-web-app/app/vendor/angular-bootstrap/ui-bootstrap-tpls.min.js HTTP/1.1" 200 53004 http-bio-8080-exec-3 230
+127.0.0.1 - - [31/Jul/2014:22:55:22 -0400] "GET /basic-web-app/app/templates-common.js HTTP/1.1" 200 43 http-bio-8080-exec-9 3
+127.0.0.1 - - [31/Jul/2014:22:55:22 -0400] "GET /basic-web-app/app/src/common/plusOne/plusOne.js HTTP/1.1" 200 282 http-bio-8080-exec-3 3
+127.0.0.1 - - [31/Jul/2014:22:55:22 -0400] "GET /basic-web-app/app/templates-app.js HTTP/1.1" 200 18469 http-bio-8080-exec-10 3
+127.0.0.1 - - [31/Jul/2014:22:55:22 -0400] "GET /basic-web-app/app/vendor/angular-ui-router/release/angular-ui-router.js HTTP/1.1" 200 116478 http-bio-8080-exec-6 404
+127.0.0.1 - - [31/Jul/2014:22:55:22 -0400] "GET /basic-web-app/app/assets/ngbp-0.3.2.css HTTP/1.1" 200 123874 http-bio-8080-exec-5 543
+127.0.0.1 - - [31/Jul/2014:22:55:22 -0400] "GET /basic-web-app/app/vendor/angular/angular.js HTTP/1.1" 200 777753 http-bio-8080-exec-2 557

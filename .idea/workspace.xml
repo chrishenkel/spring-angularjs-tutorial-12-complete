@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8a9b97d-3194-424e-b657-6ba06d523fc7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/snippets/account.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/snippets/login.tpl.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/snippets/register.tpl.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/snippets/service.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/snippets/login.tpl.html" afterPath="$PROJECT_DIR$/snippets/login.tpl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/snippets/register.tpl.html" afterPath="$PROJECT_DIR$/snippets/register.tpl.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="basic-web-app.iws" />
@@ -87,8 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/tutorial/rest/resources/AccountResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tutorial/core/models/entities/Account.java" />
         <option value="$PROJECT_DIR$/src/test/java/tutorial/core/repositories/AccountRepoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/tutorial/core/services/util/BlogList.java" />
         <option value="$PROJECT_DIR$/src/main/java/tutorial/core/models/entities/Blog.java" />
@@ -138,6 +134,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/app/src/app/home/home.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/src/app/app.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/src/app/about/about.js" />
+        <option value="$PROJECT_DIR$/snippets/login.tpl.html" />
+        <option value="$PROJECT_DIR$/snippets/register.tpl.html" />
       </list>
     </option>
   </component>
@@ -236,7 +234,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -560,6 +557,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -713,26 +711,6 @@
       <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -755,12 +733,45 @@
       </MavenSettings>
       <method />
     </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -788,19 +799,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -919,11 +917,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33551556" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30851063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28907564" sideWeight="0.88206387" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28739497" sideWeight="0.88206387" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1005,9 +1003,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/repositories/BlogRepo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="22" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-          <folding />
-        </state>
+        <state line="17" column="22" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/services/util/BlogList.java">
@@ -1017,9 +1013,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/services/BlogEntryService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="17" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-          <folding />
-        </state>
+        <state line="7" column="17" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/services/util/BlogEntryList.java">
@@ -1051,16 +1045,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/services/BlogService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="21" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0" vertical-offset="138" max-vertical-offset="672">
-          <folding />
-        </state>
+        <state line="19" column="21" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0" vertical-offset="138" max-vertical-offset="672" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/repositories/BlogEntryRepo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="21" selection-start="787" selection-end="787" vertical-scroll-proportion="0.0" vertical-offset="138" max-vertical-offset="672">
-          <folding />
-        </state>
+        <state line="21" column="21" selection-start="787" selection-end="787" vertical-scroll-proportion="0.0" vertical-offset="138" max-vertical-offset="672" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/models/entities/BlogEntry.java">
@@ -1090,9 +1080,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/repositories/AccountRepo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="19" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
-          <folding />
-        </state>
+        <state line="14" column="19" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/util/Arrays.java">
@@ -1117,9 +1105,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/services/AccountService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="19" selection-start="575" selection-end="575" vertical-scroll-proportion="0.6625659" vertical-offset="55" max-vertical-offset="624">
-          <folding />
-        </state>
+        <state line="18" column="19" selection-start="575" selection-end="575" vertical-scroll-proportion="0.6625659" vertical-offset="55" max-vertical-offset="624" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.0.5.RELEASE/spring-beans-4.0.5.RELEASE.jar!/org/springframework/beans/factory/annotation/Autowired.class">
@@ -1129,30 +1115,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/repositories/jpa/JpaAccountRepo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="40" selection-start="1314" selection-end="1321" vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="1152">
-          <folding />
-        </state>
+        <state line="47" column="40" selection-start="1314" selection-end="1321" vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="1152" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/repositories/jpa/JpaBlogRepo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="5" selection-start="1475" selection-end="1475" vertical-scroll-proportion="0.76978415" vertical-offset="654" max-vertical-offset="1488">
-          <folding />
-        </state>
+        <state line="54" column="5" selection-start="1475" selection-end="1475" vertical-scroll-proportion="0.76978415" vertical-offset="654" max-vertical-offset="1488" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/services/impl/AccountServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="14" selection-start="947" selection-end="947" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1920">
-          <folding />
-        </state>
+        <state line="28" column="14" selection-start="947" selection-end="947" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1920" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/services/impl/BlogServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="14" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1320">
-          <folding />
-        </state>
+        <state line="24" column="14" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1320" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/AccountController.java">
@@ -1177,77 +1155,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/services/impl/BlogEntryServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="14" selection-start="502" selection-end="502" vertical-scroll-proportion="0.30935252" vertical-offset="126" max-vertical-offset="960">
-          <folding />
-        </state>
+        <state line="16" column="14" selection-start="502" selection-end="502" vertical-scroll-proportion="0.30935252" vertical-offset="126" max-vertical-offset="960" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/repositories/jpa/JpaBlogEntryRepo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0" vertical-offset="192" max-vertical-offset="1224">
-          <folding />
-        </state>
+        <state line="17" column="13" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0" vertical-offset="192" max-vertical-offset="1224" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="61" selection-start="768" selection-end="768" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="648">
-          <folding />
-        </state>
+        <state line="13" column="61" selection-start="768" selection-end="768" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="648" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/snippets/account.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="18" selection-start="34" selection-end="34" vertical-scroll-proportion="-0.72727275" vertical-offset="0" max-vertical-offset="3048" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/app/home/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="31" selection-start="693" selection-end="693" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1224" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="3" selection-start="103" selection-end="117" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="744" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/app/about/about.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="34" selection-start="173" selection-end="173" vertical-scroll-proportion="0.42317382" vertical-offset="0" max-vertical-offset="840" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/snippets/login.tpl.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="401" selection-end="401" vertical-scroll-proportion="-12.363636" vertical-offset="0" max-vertical-offset="552">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/snippets/service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="20" selection-start="400" selection-end="400" vertical-scroll-proportion="0.38848922" vertical-offset="0" max-vertical-offset="1176">
+        <state line="13" column="38" selection-start="378" selection-end="378" vertical-scroll-proportion="-8.575758" vertical-offset="29" max-vertical-offset="552">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/snippets/register.tpl.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="552">
+        <state line="17" column="0" selection-start="433" selection-end="433" vertical-scroll-proportion="-6.3030305" vertical-offset="200" max-vertical-offset="552">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/index.html">
+    <entry file="file://$PROJECT_DIR$/snippets/service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="18" selection-start="34" selection-end="34" vertical-scroll-proportion="-0.72727275" vertical-offset="0" max-vertical-offset="3048">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/app/home/home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="31" selection-start="693" selection-end="693" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1224">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="3" selection-start="103" selection-end="117" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="744">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/app/about/about.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="34" selection-start="173" selection-end="173" vertical-scroll-proportion="0.42317382" vertical-offset="0" max-vertical-offset="840">
+        <state line="9" column="11" selection-start="391" selection-end="391" vertical-scroll-proportion="0.38961038" vertical-offset="66" max-vertical-offset="1176">
           <folding />
         </state>
       </provider>

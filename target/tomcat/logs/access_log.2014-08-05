@@ -1,0 +1,2 @@
+127.0.0.1 - - [05/Aug/2014:00:16:18 -0400] "GET /basic-web-app/rest/accounts HTTP/1.1" 200 37 http-bio-8080-exec-1 20504
+127.0.0.1 - - [05/Aug/2014:00:17:44 -0400] "GET /basic-web-app/rest/accounts HTTP/1.1" 200 37 http-bio-8080-exec-3 3

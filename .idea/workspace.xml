@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8a9b97d-3194-424e-b657-6ba06d523fc7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/app/build/src/app/account/account.js" afterPath="$PROJECT_DIR$/src/main/webapp/app/build/src/app/account/account.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/app/src/app/account/account.js" afterPath="$PROJECT_DIR$/src/main/webapp/app/src/app/account/account.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/app/build/src/app/home/home.js" afterPath="$PROJECT_DIR$/src/main/webapp/app/build/src/app/home/home.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/app/src/app/home/home.js" afterPath="$PROJECT_DIR$/src/main/webapp/app/src/app/home/home.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/app/src/app/home/home.tpl.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/src/app/home/home.tpl.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/app/build/templates-app.js" afterPath="$PROJECT_DIR$/src/main/webapp/app/build/templates-app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="d8a9b97d-3194-424e-b657-6ba06d523fc7" name="Default" comment="" />
     <ignored path="basic-web-app.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -72,10 +64,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="account.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="account.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/app/account/account.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="10" selection-start="1313" selection-end="1313" vertical-scroll-proportion="0.0" vertical-offset="670" max-vertical-offset="1320">
+            <state line="44" column="10" selection-start="1313" selection-end="1313" vertical-scroll-proportion="1.5595855" vertical-offset="454" max-vertical-offset="1320">
               <folding />
             </state>
           </provider>
@@ -90,10 +82,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.tpl.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="home.tpl.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/app/home/home.tpl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="26" selection-start="1524" selection-end="1524" vertical-scroll-proportion="0.592068" vertical-offset="823" max-vertical-offset="3480">
+            <state line="43" column="26" selection-start="1524" selection-end="1524" vertical-scroll-proportion="-6.3333335" vertical-offset="823" max-vertical-offset="3480">
               <folding />
             </state>
           </provider>
@@ -982,7 +974,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="2" width="1280" height="722" extended-state="0" />
+    <frame x="0" y="2" width="1280" height="722" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1280,13 +1272,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/app/account/account.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="10" selection-start="1313" selection-end="1313" vertical-scroll-proportion="0.0" vertical-offset="670" max-vertical-offset="1320">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/app/home/home.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="31" selection-start="1452" selection-end="1452" vertical-scroll-proportion="0.0" vertical-offset="742" max-vertical-offset="1296">
@@ -1303,7 +1288,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/app/home/home.tpl.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="26" selection-start="1524" selection-end="1524" vertical-scroll-proportion="0.592068" vertical-offset="823" max-vertical-offset="3480">
+        <state line="43" column="26" selection-start="1524" selection-end="1524" vertical-scroll-proportion="-6.3333335" vertical-offset="823" max-vertical-offset="3480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/app/account/account.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="10" selection-start="1313" selection-end="1313" vertical-scroll-proportion="1.5595855" vertical-offset="454" max-vertical-offset="1320">
           <folding />
         </state>
       </provider>

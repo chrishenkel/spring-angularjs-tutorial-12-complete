@@ -1,4 +1,4 @@
-angular.module('templates-app', ['about/about.tpl.html', 'home/home.tpl.html']);
+angular.module('templates-app', ['about/about.tpl.html', 'account/login.tpl.html', 'account/register.tpl.html', 'home/home.tpl.html']);
 
 angular.module("about/about.tpl.html", []).run(["$templateCache", function($templateCache) {
   $templateCache.put("about/about.tpl.html",
@@ -265,6 +265,50 @@ angular.module("about/about.tpl.html", []).run(["$templateCache", function($temp
     "  <p>\n" +
     "    So join the team! We're good people.\n" +
     "  </p>\n" +
+    "</div>\n" +
+    "\n" +
+    "");
+}]);
+
+angular.module("account/login.tpl.html", []).run(["$templateCache", function($templateCache) {
+  $templateCache.put("account/login.tpl.html",
+    "<div class=\"row\">\n" +
+    "  <h1 class=\"page-header\">\n" +
+    "      Login\n" +
+    "  </h1>\n" +
+    "  <form ng-submit=\"login()\">\n" +
+    "      <div class=\"form-group\">\n" +
+    "          <label>Username:</label>\n" +
+    "          <input type=\"text\" ng-model=\"account.name\" class=\"form-control\"/>\n" +
+    "      </div>\n" +
+    "      <div class=\"form-group\">\n" +
+    "          <label>Password:</label>\n" +
+    "          <input type=\"password\" ng-model=\"account.password\" class=\"form-control\"/>\n" +
+    "      </div>\n" +
+    "      <button class=\"btn btn-success\" type=\"submit\">Login</button>\n" +
+    "  </form>\n" +
+    "</div>\n" +
+    "\n" +
+    "");
+}]);
+
+angular.module("account/register.tpl.html", []).run(["$templateCache", function($templateCache) {
+  $templateCache.put("account/register.tpl.html",
+    "<div class=\"row\">\n" +
+    "  <h1 class=\"page-header\">\n" +
+    "      Register\n" +
+    "  </h1>\n" +
+    "  <form ng-submit=\"register()\">\n" +
+    "      <div class=\"form-group\">\n" +
+    "          <label>Username:</label>\n" +
+    "          <input type=\"text\" ng-model=\"account.name\" class=\"form-control\" />\n" +
+    "      </div>\n" +
+    "      <div class=\"form-group\">\n" +
+    "          <label>Password:</label>\n" +
+    "          <input type=\"password\" ng-model=\"account.password\" class=\"form-control\" />\n" +
+    "      </div>\n" +
+    "      <button class=\"btn btn-success\" type=\"submit\">Register</button>\n" +
+    "  </form>\n" +
     "</div>\n" +
     "\n" +
     "");

@@ -14,7 +14,8 @@
  */
 angular.module( 'ngBoilerplate.home', [
   'ui.router',
-  'plusOne'
+  'plusOne',
+  'ngBoilerplate.account'
 ])
 
 /**
@@ -38,7 +39,9 @@ angular.module( 'ngBoilerplate.home', [
 /**
  * And of course we define a controller for our route.
  */
-.controller( 'HomeCtrl', function HomeController( $scope ) {
+.controller( 'HomeCtrl', function HomeController( $scope, sessionService) {
+    $scope.isLoggedIn = sessionService.isLoggedIn;
+    $scope.logout = sessionService.logout;
 })
 
 ;

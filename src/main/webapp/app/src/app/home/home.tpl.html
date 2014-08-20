@@ -36,16 +36,24 @@
     <li plus-one></li>
   </ul> 
   
-  <div class="btn-group">
-    <a href="https://github.com/ngbp/ngbp#readme" class="btn btn-large btn-default">
+  <div class="btn-group" ng-hide="isLoggedIn()">
+    <a ui-sref="login" class="btn btn-large btn-default">
       <i class="fa fa-book"></i>
-      Read the Docs
+      Login
     </a>
-    <a href="https://github.com/ngbp/ngbp" class="btn btn-large btn-success">
+    <a ui-sref="register" class="btn btn-large btn-success">
       <i class="fa fa-download"></i>
-      Download
+      Register
     </a>
   </div>
+
+    <div class="btn-group" ng-show="isLoggedIn()">
+        <a ng-click="logout()" class="btn btn-large btn-default">
+            <i class="fa fa-book"></i>
+            Logout
+        </a>
+    </div>
+
 
 </div>
 

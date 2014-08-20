@@ -354,16 +354,24 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "    <li plus-one></li>\n" +
     "  </ul> \n" +
     "  \n" +
-    "  <div class=\"btn-group\">\n" +
-    "    <a href=\"https://github.com/ngbp/ngbp#readme\" class=\"btn btn-large btn-default\">\n" +
+    "  <div class=\"btn-group\" ng-hide=\"isLoggedIn()\">\n" +
+    "    <a ui-sref=\"login\" class=\"btn btn-large btn-default\">\n" +
     "      <i class=\"fa fa-book\"></i>\n" +
-    "      Read the Docs\n" +
+    "      Login\n" +
     "    </a>\n" +
-    "    <a href=\"https://github.com/ngbp/ngbp\" class=\"btn btn-large btn-success\">\n" +
+    "    <a ui-sref=\"register\" class=\"btn btn-large btn-success\">\n" +
     "      <i class=\"fa fa-download\"></i>\n" +
-    "      Download\n" +
+    "      Register\n" +
     "    </a>\n" +
     "  </div>\n" +
+    "\n" +
+    "    <div class=\"btn-group\" ng-show=\"isLoggedIn()\">\n" +
+    "        <a ng-click=\"logout()\" class=\"btn btn-large btn-default\">\n" +
+    "            <i class=\"fa fa-book\"></i>\n" +
+    "            Logout\n" +
+    "        </a>\n" +
+    "    </div>\n" +
+    "\n" +
     "\n" +
     "</div>\n" +
     "\n" +

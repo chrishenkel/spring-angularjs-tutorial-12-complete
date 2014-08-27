@@ -10,6 +10,16 @@ public class BlogResource extends ResourceSupport {
 
     private String title;
 
+    private Long rid;
+
+    public Long getRid() {
+        return rid;
+    }
+
+    public void setRid(Long rid) {
+        this.rid = rid;
+    }
+
     public String getTitle() {
         return title;
     }

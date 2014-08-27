@@ -11,6 +11,16 @@ public class BlogEntryResource extends ResourceSupport {
 
     private String content;
 
+    private Long rid;
+
+    public Long getRid() {
+        return rid;
+    }
+
+    public void setRid(Long rid) {
+        this.rid = rid;
+    }
+
     public String getTitle() {
         return title;
     }

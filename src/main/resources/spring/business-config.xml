@@ -41,4 +41,5 @@
     <bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager"/>
 
     <context:component-scan base-package="tutorial.core.services.impl"/>
+    <context:component-scan base-package="tutorial.core.security"/>
 </beans>

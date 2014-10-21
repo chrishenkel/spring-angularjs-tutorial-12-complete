@@ -22,11 +22,11 @@
         <property name="prefix" value="/WEB-INF/jsp/"/>
         <property name="suffix" value=".jsp"/>
     </bean>
-
+<!--
     <security:global-method-security pre-post-annotations="enabled">
         <security:protect-pointcut expression="execution(* tutorial.rest.mvc.*.*(..))"
                                    access="ROLE_DUMMY"/>
     </security:global-method-security>
-
+-->
 
 </beans>

@@ -1,0 +1,38 @@
+{
+  "name": "angular-hateoas",
+  "version": "0.2.3",
+  "authors": [
+    "Jeremy Marquis <jeremy@jeremymarquis.com>"
+  ],
+  "description": "An AngularJS module for using $resource with a HATEOAS-enabled REST API.",
+  "keywords": [
+    "angular",
+    "resource",
+    "hateoas",
+    "rest",
+    "api"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/jmarquis/angular-hateoas",
+  "main": "src/angular-hateoas.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "devDependencies": {
+    "angular": "~1.2.24",
+    "angular-mocks": "~1.2.24",
+    "angular-resource": "~1.2.24"
+  },
+  "_release": "0.2.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.2.3",
+    "commit": "079a0c9258fca212cc2a28babeb4a42c5abc0583"
+  },
+  "_source": "git://github.com/jmarquis/angular-hateoas.git",
+  "_target": "~0.2.3",
+  "_originalSource": "angular-hateoas",
+  "_direct": true
+}

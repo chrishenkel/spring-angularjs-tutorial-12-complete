@@ -16,9 +16,12 @@ tutorial\core\services\util\BlogEntryList.class
 tutorial\rest\resources\BlogListResource.class
 tutorial\rest\resources\asm\AccountResourceAsm.class
 tutorial\core\services\impl\BlogEntryServiceImpl.class
+tutorial\rest\exceptions\ForbiddenException.class
 tutorial\rest\mvc\BlogEntryController.class
 tutorial\core\services\exceptions\AccountExistsException.class
 tutorial\rest\resources\AccountListResource.class
+tutorial\core\security\AccountUserDetails.class
+tutorial\core\security\AccountUserDetails$1.class
 tutorial\rest\resources\BlogEntryListResource.class
 tutorial\rest\exceptions\BadRequestException.class
 tutorial\core\repositories\BlogEntryRepo.class
@@ -34,6 +37,7 @@ tutorial\rest\resources\asm\BlogListResourceAsm.class
 tutorial\core\services\exceptions\BlogExistsException.class
 tutorial\core\services\impl\BlogServiceImpl.class
 tutorial\core\repositories\jpa\JpaAccountRepo.class
+tutorial\core\security\UserDetailServiceImpl.class
 tutorial\rest\resources\BlogEntryResource.class
 tutorial\core\security\SecurityConfig.class
 tutorial\core\services\util\BlogList.class

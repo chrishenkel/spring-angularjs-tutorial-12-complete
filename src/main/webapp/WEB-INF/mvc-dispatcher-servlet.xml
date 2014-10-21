@@ -27,4 +27,6 @@
         <security:protect-pointcut expression="execution(* tutorial.rest.mvc.*.*(..))"
                                    access="ROLE_DUMMY"/>
     </security:global-method-security>
+
+
 </beans>

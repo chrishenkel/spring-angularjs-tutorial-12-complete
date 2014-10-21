@@ -15,6 +15,7 @@ C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\core\services\exce
 C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\core\repositories\jpa\JpaAccountRepo.java
 C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\core\models\entities\Account.java
 C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\core\services\exceptions\BlogExistsException.java
+C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\core\security\AccountUserDetails.java
 C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\rest\resources\asm\AccountResourceAsm.java
 C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\rest\exceptions\BadRequestException.java
 C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\core\services\AccountService.java
@@ -22,13 +23,15 @@ C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\core\services\impl
 C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\core\services\BlogService.java
 C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\core\models\entities\Blog.java
 C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\core\repositories\AccountRepo.java
-C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\rest\resources\asm\AccountListResourceAsm.java
 C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\core\security\SecurityWebAppInitializer.java
+C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\rest\resources\asm\AccountListResourceAsm.java
 C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\rest\resources\asm\BlogListResourceAsm.java
+C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\core\security\UserDetailServiceImpl.java
 C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\rest\resources\asm\BlogEntryListResourceAsm.java
 C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\core\services\BlogEntryService.java
 C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\rest\resources\BlogEntryResource.java
 C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\core\repositories\BlogRepo.java
+C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\rest\exceptions\ForbiddenException.java
 C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\rest\resources\AccountResource.java
 C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\core\services\exceptions\AccountExistsException.java
 C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\rest\resources\BlogEntryListResource.java

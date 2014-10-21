@@ -2,13 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8a9b97d-3194-424e-b657-6ba06d523fc7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/tutorial/core/security/SecurityConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/tutorial/core/security/SecurityWebAppInitializer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/tutorial/core/security/AccountUserDetails.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/tutorial/rest/exceptions/ForbiddenException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/tutorial/core/security/UserDetailServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/app/src/app/blog/blog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/app/src/app/blog/blog.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/app/src/app/blog/manage-blogs.tpl.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/app/src/app/account/search.tpl.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/AccountController.java" afterPath="$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/AccountController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic-web-app.iml" afterPath="$PROJECT_DIR$/basic-web-app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring/business-config.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/business-config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/BlogController.java" afterPath="$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/BlogController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/tutorial/core/security/SecurityConfig.java" afterPath="$PROJECT_DIR$/src/main/java/tutorial/core/security/SecurityConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/app/build/src/app/account/account.js" afterPath="$PROJECT_DIR$/src/main/webapp/app/build/src/app/account/account.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/app/src/app/account/account.js" afterPath="$PROJECT_DIR$/src/main/webapp/app/src/app/account/account.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/app/build/src/app/app.js" afterPath="$PROJECT_DIR$/src/main/webapp/app/build/src/app/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/app/src/app/app.js" afterPath="$PROJECT_DIR$/src/main/webapp/app/src/app/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/app/build.config.js" afterPath="$PROJECT_DIR$/src/main/webapp/app/build.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/app/src/app/home/home.less" afterPath="$PROJECT_DIR$/src/main/webapp/app/src/app/home/home.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/app/build/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/build/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/app/src/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/app/src/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/app/build/karma-unit.js" afterPath="$PROJECT_DIR$/src/main/webapp/app/build/karma-unit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/app/src/less/main.less" afterPath="$PROJECT_DIR$/src/main/webapp/app/src/less/main.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/app/build/assets/ngbp-0.3.2.css" afterPath="$PROJECT_DIR$/src/main/webapp/app/build/assets/ngbp-0.3.2.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/app/build/templates-app.js" afterPath="$PROJECT_DIR$/src/main/webapp/app/build/templates-app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="basic-web-app.iws" />
@@ -73,28 +89,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="build.config.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/build.config.js">
+      <file leaf-file-name="manage-blogs.tpl.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/app/blog/manage-blogs.tpl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="0" selection-start="2623" selection-end="2623" vertical-scroll-proportion="0.0" vertical-offset="1848" max-vertical-offset="1992">
+            <state line="12" column="20" selection-start="479" selection-end="479" vertical-scroll-proportion="-8.727273" vertical-offset="0" max-vertical-offset="744">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/app/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="744">
+            <state line="16" column="23" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0" vertical-offset="213" max-vertical-offset="840">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="blog.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/app/blog/blog.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="126" column="26" selection-start="4525" selection-end="4525" vertical-scroll-proportion="0.0" vertical-offset="2661" max-vertical-offset="3912">
+            <state line="15" column="13" selection-start="677" selection-end="677" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1608">
               <folding />
             </state>
           </provider>
@@ -103,7 +119,25 @@
       <file leaf-file-name="AccountController.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/AccountController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="7" selection-start="2390" selection-end="2390" vertical-scroll-proportion="1.1294118" vertical-offset="360" max-vertical-offset="2616">
+            <state line="50" column="3" selection-start="2000" selection-end="2000" vertical-scroll-proportion="0.58054227" vertical-offset="86" max-vertical-offset="3225">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="account.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/app/account/account.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="68" column="55" selection-start="2365" selection-end="2365" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2856">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search.tpl.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/app/account/search.tpl.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="62" selection-start="417" selection-end="417" vertical-scroll-proportion="-8.0" vertical-offset="0" max-vertical-offset="552">
               <folding />
             </state>
           </provider>
@@ -112,45 +146,7 @@
       <file leaf-file-name="SecurityConfig.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/security/SecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="22" selection-start="895" selection-end="895" vertical-scroll-proportion="0.0" vertical-offset="223" max-vertical-offset="768">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SecurityWebAppInitializer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/security/SecurityWebAppInitializer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="13" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0" vertical-offset="62" max-vertical-offset="360">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-webmvc-4.0.5.RELEASE.pom" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.0.5.RELEASE/spring-webmvc-4.0.5.RELEASE.pom">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="337" column="32" selection-start="10549" selection-end="10549" vertical-scroll-proportion="0.0" vertical-offset="7869" max-vertical-offset="8376">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-security-config-3.2.5.RELEASE.pom" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/3.2.5.RELEASE/spring-security-config-3.2.5.RELEASE.pom">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="96" column="18" selection-start="3177" selection-end="3177" vertical-scroll-proportion="0.0" vertical-offset="2111" max-vertical-offset="9864">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="business-config.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/business-config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="8" selection-start="2115" selection-end="2115" vertical-scroll-proportion="0.0" vertical-offset="693" max-vertical-offset="1200">
+            <state line="29" column="0" selection-start="1242" selection-end="1242" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="816">
               <folding />
             </state>
           </provider>
@@ -159,7 +155,25 @@
       <file leaf-file-name="mvc-dispatcher-servlet.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="38" selection-start="1474" selection-end="1474" vertical-scroll-proportion="0.0" vertical-offset="428" max-vertical-offset="840">
+            <state line="24" column="0" selection-start="1222" selection-end="1222" vertical-scroll-proportion="0.0" vertical-offset="261" max-vertical-offset="888">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="66" column="18" selection-start="3219" selection-end="3219" vertical-scroll-proportion="-8.727273" vertical-offset="1296" max-vertical-offset="2904">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/services/AccountService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="28" selection-start="584" selection-end="584" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
               <folding />
             </state>
           </provider>
@@ -183,44 +197,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/ngbp/src/app/home/home.tpl.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/ngbp/src/app/account/create-account.tpl.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/ngbp/build.config.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/ngbp/src/app/app.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/ngbp/src/app/about/about.tpl.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/ngbp/src/app/account/create-account.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/ngbp/src/app/about/about.js" />
-        <option value="$PROJECT_DIR$/src/main/java/tutorial/rest/resources/asm/AccountListResourceAsm.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tutorial/rest/resources/AccountListResource.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tutorial/mvc/BlogControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tutorial/core/repositories/BlogRepo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tutorial/core/repositories/BlogEntryRepo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tutorial/core/repositories/jpa/JpaBlogRepo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tutorial/core/services/util/BlogEntryList.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tutorial/core/services/util/AccountList.java" />
         <option value="$PROJECT_DIR$/src/main/java/tutorial/core/services/BlogService.java" />
         <option value="$PROJECT_DIR$/src/main/java/tutorial/core/models/entities/BlogEntry.java" />
         <option value="$PROJECT_DIR$/src/main/java/tutorial/core/repositories/jpa/JpaBlogEntryRepo.java" />
         <option value="$PROJECT_DIR$/src/test/java/tutorial/mvc/AccountControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tutorial/core/repositories/AccountRepo.java" />
         <option value="$PROJECT_DIR$/src/main/java/tutorial/core/repositories/jpa/JpaAccountRepo.java" />
         <option value="$PROJECT_DIR$/src/main/java/tutorial/core/services/AccountService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tutorial/core/services/impl/AccountServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/tutorial/core/services/impl/BlogEntryServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/tutorial/core/services/impl/BlogServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/BlogController.java" />
         <option value="$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/BlogEntryController.java" />
         <option value="$PROJECT_DIR$/snippets/service.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/src/app/about/about.js" />
         <option value="$PROJECT_DIR$/snippets/login.tpl.html" />
         <option value="$PROJECT_DIR$/snippets/register.tpl.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/app/src/app/app.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/src/app/account/login.tpl.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/src/app/account/register.tpl.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/app/src/app/home/home.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/src/app/home/home.tpl.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/app/build.config.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/app/src/app/account/account.js" />
         <option value="$PROJECT_DIR$/src/main/java/tutorial/rest/resources/AccountResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/tutorial/rest/resources/BlogEntryResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/tutorial/rest/resources/BlogResource.java" />
@@ -231,8 +223,30 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/tutorial/core/security/SecurityWebAppInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/business-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/tutorial/rest/exceptions/ForbiddenException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tutorial/core/security/AccountUserDetails.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tutorial/core/security/UserDetailServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tutorial/core/services/impl/AccountServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tutorial/core/repositories/AccountRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/src/app/blog/blogs.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/build/karma-unit.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/build.config.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/src/app/app.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/src/app/home/home.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/src/app/blog/blog.tpl.html" />
+        <option value="$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/BlogController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/src/app/blog/search.tpl.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/src/app/home/home.less" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/src/less/main.less" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/src/app/blog/blog.less" />
         <option value="$PROJECT_DIR$/src/main/java/tutorial/core/security/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/src/app/account/search.tpl.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/src/app/blog/blog.list.tpl.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/src/app/blog/manage-blogs.tpl.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/src/app/account/account.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/src/app/blog/blog.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/src/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/AccountController.java" />
       </list>
     </option>
@@ -302,10 +316,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="y" value="1" />
-    <option name="width" value="1278" />
-    <option name="height" value="717" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1296" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -334,7 +348,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -475,6 +488,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basic-web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basic-web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -509,7 +552,253 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="less" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basic-web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basic-web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basic-web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basic-web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basic-web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basic-web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basic-web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basic-web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basic-web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basic-web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basic-web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basic-web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="account" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basic-web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basic-web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="karma" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -704,6 +993,10 @@
               <option name="myItemId" value="rest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exceptions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -732,6 +1025,48 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basic-web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basic-web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -891,6 +1226,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -904,29 +1240,33 @@
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../temporary/pom.xml" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Chris\tutorials\basic-web-app\src\main\webapp\app\src\app\blog" />
       <recent name="C:\Users\Chris\tutorials\basic-web-app\src\main\webapp\app\src\app\account" />
       <recent name="C:\Users\Chris\tutorials\basic-web-app" />
       <recent name="C:\Users\Chris\tutorials\basic-web-app\src\main\webapp" />
       <recent name="C:\Users\Chris\tutorials\basic-web-app\ngbp\build" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="tutorial.core.security" />
       <recent name="tutorial.core.services.exceptions" />
       <recent name="tutorial.rest.resources" />
       <recent name="tutorial.core.services" />
       <recent name="tutorial.rest.exceptions" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="tutorial.core.repositories" />
-      <recent name="tutorial.core.services" />
-      <recent name="tutorial" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Chris\tutorials\basic-web-app\ngbp" />
       <recent name="C:\Users\Chris\tutorials\basic-web-app" />
       <recent name="C:\Users\Chris\tutorials\basic-web-app\src\main\webapp" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="tutorial.core.repositories" />
+      <recent name="tutorial.core.services" />
+      <recent name="tutorial" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.AccountControllerTest">
@@ -1046,6 +1386,26 @@
       <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -1068,45 +1428,12 @@
       </MavenSettings>
       <method />
     </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -1134,6 +1461,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1237,7 +1577,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1" width="1278" height="717" extended-state="0" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1252,11 +1592,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.068032786" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.054119546" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30491802" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2840136" sideWeight="0.88206387" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29159936" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21125144" sideWeight="0.88206387" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1286,214 +1626,77 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/services/exceptions/AccountExistsException.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576" />
+        <state line="126" column="26" selection-start="4525" selection-end="4525" vertical-scroll-proportion="0.0" vertical-offset="2661" max-vertical-offset="3912">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/resources/asm/AccountListResourceAsm.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/exceptions/ConflictException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="662" selection-end="662" vertical-scroll-proportion="0.0" vertical-offset="142" max-vertical-offset="672" />
+        <state line="9" column="13" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="528">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/util/Arrays.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/exceptions/ForbiddenException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2826" column="30" selection-start="128626" selection-end="128626" vertical-scroll-proportion="0.0" vertical-offset="67096" max-vertical-offset="87744" />
+        <state line="5" column="3" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/services/util/AccountList.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/security/UserDetailServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="11" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0" vertical-offset="70" max-vertical-offset="600" />
+        <state line="14" column="35" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tutorial/mvc/AccountControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/security/SecurityWebAppInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="257" column="0" selection-start="9010" selection-end="9010" vertical-scroll-proportion="0.4820144" vertical-offset="5900" max-vertical-offset="6456" />
+        <state line="7" column="13" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0" vertical-offset="62" max-vertical-offset="360">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/services/AccountService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/security/AccountUserDetails.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="19" selection-start="575" selection-end="575" vertical-scroll-proportion="0.6625659" vertical-offset="55" max-vertical-offset="624" />
+        <state line="13" column="13" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1536">
+          <folding>
+            <element signature="e#761#762#0" expanded="false" />
+            <element signature="e#838#856#0" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.0.5.RELEASE/spring-beans-4.0.5.RELEASE.jar!/org/springframework/beans/factory/annotation/Autowired.class">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/vendor/angular-resource/angular-resource.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="18" selection-start="511" selection-end="511" vertical-scroll-proportion="0.40677965" vertical-offset="0" max-vertical-offset="531" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="15048">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/repositories/jpa/JpaBlogRepo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/vendor/angular-hateoas/src/angular-hateoas.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="5" selection-start="1475" selection-end="1475" vertical-scroll-proportion="0.76978415" vertical-offset="654" max-vertical-offset="1488" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4200">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/services/impl/AccountServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/app/app.spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="14" selection-start="947" selection-end="947" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1920" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/services/impl/BlogServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="14" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1320" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/BlogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="14" selection-start="1480" selection-end="1480" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1848" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/BlogEntryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="36" selection-start="701" selection-end="701" vertical-scroll-proportion="0.0" vertical-offset="24" max-vertical-offset="1584" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/services/impl/BlogEntryServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="14" selection-start="502" selection-end="502" vertical-scroll-proportion="0.30935252" vertical-offset="126" max-vertical-offset="960" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/repositories/jpa/JpaBlogEntryRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0" vertical-offset="192" max-vertical-offset="1224" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/snippets/account.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/snippets/register.tpl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="433" selection-end="433" vertical-scroll-proportion="-6.3030305" vertical-offset="200" max-vertical-offset="552" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/snippets/service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="11" selection-start="391" selection-end="391" vertical-scroll-proportion="0.38961038" vertical-offset="66" max-vertical-offset="1176" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/snippets/login.tpl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="16" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="552" />
+        <state line="17" column="0" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="552">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/app/account/register.tpl.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="6" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="552" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/app/home/home.tpl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="4" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="96" max-vertical-offset="3480" />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/common.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="23" selection-start="3392" selection-end="3392" vertical-scroll-proportion="0.0" vertical-offset="3040" max-vertical-offset="11616" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/app/account/account.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="20" selection-start="2496" selection-end="2496" vertical-scroll-proportion="0.0" vertical-offset="1510" max-vertical-offset="2064" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/app/account/login.tpl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="31" selection-start="156" selection-end="156" vertical-scroll-proportion="-2.1818182" vertical-offset="72" max-vertical-offset="552" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/models/entities/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="314" selection-end="314" vertical-scroll-proportion="0.7484472" vertical-offset="71" max-vertical-offset="768" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/repositories/AccountRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="19" selection-start="373" selection-end="373" vertical-scroll-proportion="0.43148687" vertical-offset="92" max-vertical-offset="456" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/repositories/jpa/JpaAccountRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="40" selection-start="1314" selection-end="1321" vertical-scroll-proportion="1.0549451" vertical-offset="504" max-vertical-offset="1152" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/resources/AccountResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="4" selection-start="417" selection-end="417" vertical-scroll-proportion="0.48076922" vertical-offset="161" max-vertical-offset="1056" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/resources/BlogEntryResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="26" selection-start="337" selection-end="337" vertical-scroll-proportion="0.75274724" vertical-offset="62" max-vertical-offset="1032" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/resources/BlogListResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="234" selection-end="234" vertical-scroll-proportion="0.27792206" vertical-offset="61" max-vertical-offset="480" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/resources/BlogResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="26" selection-start="299" selection-end="299" vertical-scroll-proportion="0.6857143" vertical-offset="48" max-vertical-offset="888" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/resources/asm/BlogResourceAsm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="28" selection-start="953" selection-end="953" vertical-scroll-proportion="0.587013" vertical-offset="206" max-vertical-offset="720" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/resources/asm/BlogEntryResourceAsm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="36" selection-start="917" selection-end="917" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="840" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/resources/asm/AccountResourceAsm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="1037" selection-end="1037" vertical-scroll-proportion="1.1486881" vertical-offset="158" max-vertical-offset="696" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/build/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="62" selection-start="1717" selection-end="1724" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="3312" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="33" selection-start="1560" selection-end="1560" vertical-scroll-proportion="0.0" vertical-offset="552" max-vertical-offset="3048">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/vendor/angular-bootstrap/ui-bootstrap-tpls.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="311" column="3" selection-start="11915" selection-end="11915" vertical-scroll-proportion="0.0" vertical-offset="7347" max-vertical-offset="88392">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="22" selection-start="546" selection-end="555" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="768">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/app/home/home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="31" selection-start="1452" selection-end="1452" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1296">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/app/about/about.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="5" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/vendor/angular-bootstrap/ui-bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="39" selection-start="1073" selection-end="1073" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="82368">
+        <state line="15" column="6" selection-start="506" selection-end="506" vertical-scroll-proportion="-10.909091" vertical-offset="0" max-vertical-offset="552">
           <folding />
         </state>
       </provider>
@@ -1505,37 +1708,149 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1296">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/build/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="43" selection-start="1419" selection-end="1419" vertical-scroll-proportion="-13.090909" vertical-offset="48" max-vertical-offset="3384">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/vendor/angular-hateoas/karma.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1872">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/vendor/angular-hateoas/test/angular-hateoas.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4536">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/build/karma-unit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1848">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/karma/karma-unit.tpl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="14" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0" vertical-offset="563" max-vertical-offset="1632">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/app/build.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="0" selection-start="2623" selection-end="2623" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1992">
+        <state line="40" column="45" selection-start="1338" selection-end="1338" vertical-scroll-proportion="0.0" vertical-offset="624" max-vertical-offset="2040">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/app/account/login.tpl.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="744">
+        <state line="0" column="0" selection-start="0" selection-end="497" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="552">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/3.2.5.RELEASE/spring-security-config-3.2.5.RELEASE.pom">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/app/home/home.tpl.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="18" selection-start="3177" selection-end="3177" vertical-scroll-proportion="0.0" vertical-offset="2111" max-vertical-offset="9864">
+        <state line="42" column="8" selection-start="1389" selection-end="1497" vertical-scroll-proportion="-8.575758" vertical-offset="725" max-vertical-offset="3480">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.0.5.RELEASE/spring-webmvc-4.0.5.RELEASE.pom">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/services/BlogService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="337" column="32" selection-start="10549" selection-end="10549" vertical-scroll-proportion="0.0" vertical-offset="7869" max-vertical-offset="8376">
+        <state line="12" column="17" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="672">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/resources/BlogListResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="26" selection-start="4525" selection-end="4525" vertical-scroll-proportion="0.0" vertical-offset="2661" max-vertical-offset="3912">
+        <state line="11" column="13" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/common.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="132" column="23" selection-start="3392" selection-end="3392" vertical-scroll-proportion="0.0" vertical-offset="2980" max-vertical-offset="11616">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/sectional.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="21" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0" vertical-offset="52" max-vertical-offset="4248">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/app/home/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="67" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1296">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/app/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="76" selection-start="957" selection-end="957" vertical-scroll-proportion="-7.88" vertical-offset="379" max-vertical-offset="2400">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/app/home/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="12" selection-start="214" selection-end="218" vertical-scroll-proportion="-3.3529413" vertical-offset="189" max-vertical-offset="1896">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/less/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="3" selection-start="1934" selection-end="1934" vertical-scroll-proportion="-13.44" vertical-offset="2520" max-vertical-offset="3120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/app/home/home.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="1" selection-start="501" selection-end="501" vertical-scroll-proportion="-11.52" vertical-offset="576" max-vertical-offset="1224">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/repositories/AccountRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="50" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/repositories/jpa/JpaBlogEntryRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="5" selection-start="1484" selection-end="1484" vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="1224">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/app/blog/blog.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="21" selection-start="40" selection-end="40" vertical-scroll-proportion="-0.96" vertical-offset="0" max-vertical-offset="192">
           <folding />
         </state>
       </provider>
@@ -1547,32 +1862,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/security/SecurityWebAppInitializer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/BlogEntryController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0" vertical-offset="62" max-vertical-offset="360">
+        <state line="17" column="13" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0" vertical-offset="28" max-vertical-offset="1584">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/services/impl/BlogEntryServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="38" selection-start="1474" selection-end="1474" vertical-scroll-proportion="0.0" vertical-offset="428" max-vertical-offset="840">
+        <state line="16" column="14" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0" vertical-offset="283" max-vertical-offset="840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/services/impl/AccountServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="14" selection-start="894" selection-end="894" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="1920">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/models/entities/Blog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0" vertical-offset="287" max-vertical-offset="864">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/BlogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="28" selection-start="1722" selection-end="1722" vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="1872">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/security/SecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="22" selection-start="895" selection-end="895" vertical-scroll-proportion="0.0" vertical-offset="223" max-vertical-offset="768">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="29" column="0" selection-start="1242" selection-end="1242" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="816">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/app/account/search.tpl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="62" selection-start="417" selection-end="417" vertical-scroll-proportion="-8.0" vertical-offset="0" max-vertical-offset="552">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/app/account/account.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="55" selection-start="2365" selection-end="2365" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2856">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/app/blog/manage-blogs.tpl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="20" selection-start="479" selection-end="479" vertical-scroll-proportion="-8.727273" vertical-offset="0" max-vertical-offset="744">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="1222" selection-end="1222" vertical-scroll-proportion="0.0" vertical-offset="261" max-vertical-offset="888">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/app/blog/blog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="677" selection-end="677" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1608">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="23" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="18" selection-start="3219" selection-end="3219" vertical-scroll-proportion="-8.727273" vertical-offset="1296" max-vertical-offset="2904">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/services/AccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="28" selection-start="584" selection-end="584" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/AccountController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="7" selection-start="2390" selection-end="2390" vertical-scroll-proportion="1.1294118" vertical-offset="360" max-vertical-offset="2616">
+        <state line="50" column="3" selection-start="2000" selection-end="2000" vertical-scroll-proportion="0.58054227" vertical-offset="86" max-vertical-offset="3225">
           <folding />
         </state>
       </provider>

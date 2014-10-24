@@ -40,14 +40,12 @@ angular.module('ngBoilerplate.account', ['ui.router', 'ngResource', 'base64'])
 .factory('sessionService', function($http) {
     var session = {};
     session.login = function(data) {
-        $http.post("/basic-web-app/auth", "username=" + data.name + "&password=" + data.password, {
+        return $http.post("/basic-web-app/login", "username=" + data.name + "&password=" + data.password, {
             headers: {'Content-Type': 'application/x-www-form-urlencoded'}
-        })
-        .success(function(data) {
+        }).then(function(data) {
             alert("login successful");
             localStorage.setItem("session", {});
-        })
-        .error(function(data) {
+        }, function(data) {
             alert("error logging in");
         });
     };
@@ -95,16 +93,24 @@ angular.module('ngBoilerplate.account', ['ui.router', 'ngResource', 'base64'])
 })
 .controller("LoginCtrl", function($scope, sessionService, accountService, $state) {
     $scope.login = function() {
-        sessionService.login($scope.account);
-        $state.go("home");
+        sessionService.login($scope.account).then(
+        function(data) {
+            $state.go("home");
+        },
+        function() {
+            alert("error logging in");
+        });
     };
 })
 .controller("RegisterCtrl", function($scope, sessionService, $state, accountService) {
     $scope.register = function() {
         accountService.register($scope.account,
         function(returnedData) {
-            sessionService.login($scope.account);
-            $state.go("home");
+            sessionService.login($scope.account).then(function() {
+                $state.go("home");
+            }, function() {
+                alert("Error logging in");
+            });
         },
         function() {
             alert("Error registering user");

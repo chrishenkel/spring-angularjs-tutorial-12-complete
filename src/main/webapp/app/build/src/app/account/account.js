@@ -40,9 +40,16 @@ angular.module('ngBoilerplate.account', ['ui.router', 'ngResource', 'base64'])
 .factory('sessionService', function($http, $base64) {
     var session = {};
     session.login = function(data) {
-        $http.defaults.headers.common.Authorization = 'Basic ' + $base64.encode(data.name + ":" + data.password);
-        alert('user logged in with credentials ' + data.name + " and " + data.password);
-        localStorage.setItem("session", data);
+        $http.post("/basic-web-app/auth", "username=" + data.name + "&password=" + data.password, {
+            headers: {'Content-Type': 'application/x-www-form-urlencoded'}
+        })
+        .success(function(data) {
+            alert("login successful");
+            localStorage.setItem("session", {});
+        })
+        .error(function(data) {
+            alert("error logging in");
+        });
     };
     session.logout = function() {
         localStorage.removeItem("session");
@@ -88,13 +95,8 @@ angular.module('ngBoilerplate.account', ['ui.router', 'ngResource', 'base64'])
 })
 .controller("LoginCtrl", function($scope, sessionService, accountService, $state) {
     $scope.login = function() {
-        accountService.userExists($scope.account, function(account) {
-            sessionService.login($scope.account);
-            $state.go("home");
-        },
-        function() {
-            alert("Error logging in user");
-        });
+        sessionService.login($scope.account);
+        $state.go("home");
     };
 })
 .controller("RegisterCtrl", function($scope, sessionService, $state, accountService) {

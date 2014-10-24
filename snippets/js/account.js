@@ -37,7 +37,7 @@ angular.module('ngBoilerplate.account', ['ui.router', 'ngResource', 'base64'])
             }
     });
 })
-.factory('sessionService', function($http, $base64) {
+.factory('sessionService', function($http) {
     var session = {};
     session.login = function(data) {
         $http.post("/basic-web-app/auth", "username=" + data.name + "&password=" + data.password, {

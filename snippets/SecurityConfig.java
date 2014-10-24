@@ -7,6 +7,8 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.web.authentication.AuthenticationFailureHandler;
+import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
 
 /**
  * Created by Chris on 10/19/14.
@@ -16,10 +18,38 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired
+    private AuthenticationSuccessHandler successHandler;
+
+    @Autowired
+    private AuthenticationFailureHandler failureHandler;
+
+    @Autowired
+    private EntryPointUnauthorizedHandler entryPoint;
+
+    @Autowired
+    private UserDetailsService userDetailsService;
+
+    @Autowired
     public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
-        auth.inMemoryAuthentication()
-                .withUser("user").password("password").roles("USER");
+        auth.userDetailsService(userDetailsService);
     }
 
-
+    @Override
+    protected void configure(HttpSecurity http) throws Exception {
+        http
+                .exceptionHandling()
+                    .authenticationEntryPoint(entryPoint)
+                    .and()
+                .csrf().disable()
+                .formLogin()
+                    .successHandler(successHandler)
+                    .failureHandler(failureHandler)
+                    .loginProcessingUrl("/auth")
+                    .usernameParameter("username")
+                    .passwordParameter("password")
+                    .permitAll()
+                    .and()
+                .authorizeRequests()
+                    .antMatchers("/**").permitAll();
+    }
 }

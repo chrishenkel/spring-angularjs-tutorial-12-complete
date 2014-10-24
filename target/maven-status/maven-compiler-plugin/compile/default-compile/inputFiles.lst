@@ -21,9 +21,8 @@ C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\core\services\Acco
 C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\core\services\impl\BlogServiceImpl.java
 C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\core\services\BlogService.java
 C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\core\models\entities\Blog.java
-C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\core\repositories\AccountRepo.java
 C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\rest\resources\asm\AccountListResourceAsm.java
-C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\core\security\SecurityWebAppInitializer.java
+C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\core\repositories\AccountRepo.java
 C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\rest\resources\asm\BlogListResourceAsm.java
 C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\rest\resources\asm\BlogEntryListResourceAsm.java
 C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\core\services\BlogEntryService.java
@@ -34,13 +33,9 @@ C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\rest\resources\Acc
 C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\core\services\exceptions\AccountExistsException.java
 C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\rest\resources\BlogEntryListResource.java
 C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\rest\mvc\BlogEntryController.java
-C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\core\security\AuthSuccess.java
-C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\core\security\SecurityConfig.java
 C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\core\services\exceptions\BlogNotFoundException.java
 C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\core\models\entities\BlogEntry.java
-C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\core\security\AuthFailure.java
 C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\rest\resources\asm\BlogEntryResourceAsm.java
 C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\rest\exceptions\NotFoundException.java
 C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\rest\resources\AccountListResource.java
-C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\core\security\EntryPointUnauthorizedHandler.java
 C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\core\services\impl\AccountServiceImpl.java

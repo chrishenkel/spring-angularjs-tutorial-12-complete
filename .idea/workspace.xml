@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8a9b97d-3194-424e-b657-6ba06d523fc7" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\core\security\AccountUserDetails.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\core\security\SecurityWebAppInitializer.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\core\security\UserDetailServiceImpl.java" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\core\security\AuthFailure.java" afterPath="$PROJECT_DIR$/snippets/AuthFailure.java" />
-      <change type="MOVED" beforePath="C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\core\security\AuthSuccess.java" afterPath="$PROJECT_DIR$/snippets/AuthSuccess.java" />
-      <change type="MOVED" beforePath="C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\core\security\SecurityConfig.java" afterPath="$PROJECT_DIR$/snippets/SecurityConfig.java" />
-      <change type="MOVED" beforePath="C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\core\security\entryPointUnauthorizedHandler.java" afterPath="$PROJECT_DIR$/snippets/EntryPointUnauthorizedHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/AccountController.java" afterPath="$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/AccountController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/BlogController.java" afterPath="$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/BlogController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring/business-config.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/business-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/snippets/js/account.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/app/build/src/app/account/account.js" afterPath="$PROJECT_DIR$/src/main/webapp/app/build/src/app/account/account.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/app/src/app/account/account.js" afterPath="$PROJECT_DIR$/src/main/webapp/app/src/app/account/account.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="basic-web-app.iws" />
@@ -89,7 +81,16 @@
       <file leaf-file-name="account.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/app/account/account.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="7" selection-start="1174" selection-end="1174" vertical-scroll-proportion="0.040747028" vertical-offset="864" max-vertical-offset="2904">
+            <state line="97" column="2" selection-start="3245" selection-end="3245" vertical-scroll-proportion="1.1268382" vertical-offset="1715" max-vertical-offset="2832">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="account.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/snippets/js/account.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="2904">
               <folding />
             </state>
           </provider>
@@ -98,10 +99,35 @@
       <file leaf-file-name="AccountController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/AccountController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="30" selection-start="1824" selection-end="1824" vertical-scroll-proportion="0.0" vertical-offset="631" max-vertical-offset="3792">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="47" column="30" selection-start="1824" selection-end="1824" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="3096">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecurityConfig.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/snippets/SecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1272">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="744">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountRepoTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tutorial/core/repositories/AccountRepoTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="13" selection-start="726" selection-end="726" vertical-scroll-proportion="0.0" vertical-offset="449" max-vertical-offset="1032">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -109,7 +135,7 @@
       <file leaf-file-name="BlogController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/BlogController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="0" selection-start="1957" selection-end="1957" vertical-scroll-proportion="0.0" vertical-offset="184" max-vertical-offset="1872">
+            <state line="50" column="0" selection-start="1957" selection-end="1957" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1872">
               <folding />
             </state>
           </provider>
@@ -119,6 +145,15 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/spring/business-config.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="43" column="0" selection-start="2039" selection-end="2039" vertical-scroll-proportion="0.0" vertical-offset="587" max-vertical-offset="1176">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlogEntryController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/BlogEntryController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="0" selection-start="766" selection-end="766" vertical-scroll-proportion="0.0" vertical-offset="892" max-vertical-offset="1584">
               <folding />
             </state>
           </provider>
@@ -189,10 +224,10 @@
         <option value="$PROJECT_DIR$/src/main/java/tutorial/core/security/EntryPointUnauthorizedHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/tutorial/core/security/SecurityConfig.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/AccountController.java" />
         <option value="$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/BlogController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/business-config.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/src/app/account/account.js" />
+        <option value="$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/AccountController.java" />
       </list>
     </option>
   </component>
@@ -259,7 +294,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1296" />
+    <option name="width" value="1292" />
     <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -288,8 +323,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -876,6 +911,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basic-web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basic-web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="snippets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -895,11 +948,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Chris\tutorials\basic-web-app\snippets\js" />
       <recent name="C:\Users\Chris\tutorials\basic-web-app\snippets" />
       <recent name="C:\Users\Chris\tutorials\basic-web-app\src\main\java\tutorial\core\security" />
       <recent name="C:\Users\Chris\tutorials\basic-web-app\src\main\webapp\app\src\app\blog" />
       <recent name="C:\Users\Chris\tutorials\basic-web-app\src\main\webapp\app\src\app\account" />
-      <recent name="C:\Users\Chris\tutorials\basic-web-app" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="tutorial.core.security" />
@@ -908,15 +961,15 @@
       <recent name="tutorial.core.services" />
       <recent name="tutorial.rest.exceptions" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Chris\tutorials\basic-web-app\ngbp" />
-      <recent name="C:\Users\Chris\tutorials\basic-web-app" />
-      <recent name="C:\Users\Chris\tutorials\basic-web-app\src\main\webapp" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="tutorial.core.repositories" />
       <recent name="tutorial.core.services" />
       <recent name="tutorial" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Chris\tutorials\basic-web-app\ngbp" />
+      <recent name="C:\Users\Chris\tutorials\basic-web-app" />
+      <recent name="C:\Users\Chris\tutorials\basic-web-app\src\main\webapp" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.AccountControllerTest">
@@ -1036,6 +1089,26 @@
       <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -1058,45 +1131,12 @@
       </MavenSettings>
       <method />
     </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -1124,6 +1164,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1227,7 +1280,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <frame x="-8" y="-8" width="1292" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1242,11 +1295,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.09076175" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3546042" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27898967" sideWeight="0.88206387" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28363046" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2783505" sideWeight="0.88206387" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1276,6 +1329,41 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="3" selection-start="1482" selection-end="1482" vertical-scroll-proportion="0.0" vertical-offset="299" max-vertical-offset="888">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/app/account/account.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="7" selection-start="1174" selection-end="1174" vertical-scroll-proportion="0.0" vertical-offset="864" max-vertical-offset="2904">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/AccountController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="30" selection-start="1824" selection-end="1824" vertical-scroll-proportion="0.0" vertical-offset="631" max-vertical-offset="3792">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/BlogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="0" selection-start="1957" selection-end="1957" vertical-scroll-proportion="0.0" vertical-offset="1200" max-vertical-offset="2472">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/business-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="0" selection-start="2039" selection-end="2039" vertical-scroll-proportion="0.0" vertical-offset="587" max-vertical-offset="1176">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/app/vendor/angular-hateoas/test/angular-hateoas.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4536" />
@@ -1363,11 +1451,6 @@
         <state line="1" column="21" selection-start="40" selection-end="40" vertical-scroll-proportion="-0.96" vertical-offset="0" max-vertical-offset="192" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/BlogEntryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0" vertical-offset="28" max-vertical-offset="1584" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/core/services/impl/BlogEntryServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="14" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0" vertical-offset="283" max-vertical-offset="840" />
@@ -1429,23 +1512,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="744">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tutorial/mvc/BlogControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="13" selection-start="1538" selection-end="1538" vertical-scroll-proportion="0.0" vertical-offset="319" max-vertical-offset="3648">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tutorial/core/repositories/AccountRepoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="0" selection-start="1328" selection-end="1328" vertical-scroll-proportion="1.4382023" vertical-offset="248" max-vertical-offset="1032">
           <folding />
         </state>
       </provider>
@@ -1480,7 +1549,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/snippets/AccountUserDetails.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="419" selection-end="419" vertical-scroll-proportion="0.3802817" vertical-offset="0" max-vertical-offset="1416">
+        <state line="15" column="0" selection-start="419" selection-end="419" vertical-scroll-proportion="0.3802817" vertical-offset="0" max-vertical-offset="1416" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snippets/js/account.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2904">
           <folding />
         </state>
       </provider>
@@ -1492,12 +1566,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/AccountController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/business-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="30" selection-start="1824" selection-end="1824" vertical-scroll-proportion="0.0" vertical-offset="631" max-vertical-offset="3792">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="43" column="0" selection-start="2039" selection-end="2039" vertical-scroll-proportion="0.0" vertical-offset="587" max-vertical-offset="1176">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/BlogEntryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="766" selection-end="766" vertical-scroll-proportion="0.0" vertical-offset="892" max-vertical-offset="1584">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1508,16 +1587,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/business-config.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial/rest/mvc/AccountController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="2039" selection-end="2039" vertical-scroll-proportion="0.0" vertical-offset="587" max-vertical-offset="1176">
+        <state line="47" column="30" selection-start="1824" selection-end="1824" vertical-scroll-proportion="0.0" vertical-offset="631" max-vertical-offset="3792">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snippets/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="744">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tutorial/core/repositories/AccountRepoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="13" selection-start="726" selection-end="726" vertical-scroll-proportion="0.0" vertical-offset="449" max-vertical-offset="1032">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/app/src/app/account/account.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="7" selection-start="1174" selection-end="1174" vertical-scroll-proportion="0.040747028" vertical-offset="864" max-vertical-offset="2904">
+        <state line="97" column="2" selection-start="3245" selection-end="3245" vertical-scroll-proportion="1.1268382" vertical-offset="1715" max-vertical-offset="2832">
           <folding />
         </state>
       </provider>

@@ -4,6 +4,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import tutorial.core.models.entities.Account;
@@ -45,7 +48,7 @@ public class AccountController {
     }
 
     @RequestMapping(method = RequestMethod.GET)
- //   @PreAuthorize("permitAll")
+    @PreAuthorize("permitAll")
     public ResponseEntity<AccountListResource> findAllAccounts(@RequestParam(value="name", required = false) String name, @RequestParam(value="password", required = false) String password) {
         AccountList list = null;
         if(name == null) {
@@ -68,7 +71,7 @@ public class AccountController {
     }
 
     @RequestMapping(method = RequestMethod.POST)
- //   @PreAuthorize("permitAll")
+    @PreAuthorize("permitAll")
     public ResponseEntity<AccountResource> createAccount(
             @RequestBody AccountResource sentAccount
     ) {
@@ -85,7 +88,7 @@ public class AccountController {
 
     @RequestMapping( value="/{accountId}",
                 method = RequestMethod.GET)
-//    @PreAuthorize("permitAll")
+    @PreAuthorize("permitAll")
     public ResponseEntity<AccountResource> getAccount(
             @PathVariable Long accountId
     ) {
@@ -101,16 +104,16 @@ public class AccountController {
 
     @RequestMapping(value="/{accountId}/blogs",
         method = RequestMethod.POST)
-//    @PreAuthorize("permitAll")
+    @PreAuthorize("permitAll")
     public ResponseEntity<BlogResource> createBlog(
             @PathVariable Long accountId,
             @RequestBody BlogResource res)
     {
-   //     Object principal = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
-        //if(principal instanceof UserDetails) {
- //           UserDetails details = (UserDetails)principal;
-  //          Account loggedIn = accountService.findByAccountName(details.getUsername());
- //           if(loggedIn.getId() == accountId) {
+        Object principal = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+        if(principal instanceof UserDetails) {
+            UserDetails details = (UserDetails)principal;
+            Account loggedIn = accountService.findByAccountName(details.getUsername());
+            if(loggedIn.getId() == accountId) {
                 try {
                     Blog createdBlog = accountService.createBlog(accountId, res.toBlog());
                     BlogResource createdBlogRes = new BlogResourceAsm().toResource(createdBlog);
@@ -124,17 +127,17 @@ public class AccountController {
                 {
                     throw new ConflictException(exception);
                 }
-//            } else {
-//                throw new ForbiddenException();
-//            }
-//        } else {
-//            throw new ForbiddenException();
-//        }
+            } else {
+                throw new ForbiddenException();
+            }
+        } else {
+            throw new ForbiddenException();
+        }
     }
 
     @RequestMapping(value="/{accountId}/blogs",
             method = RequestMethod.GET)
-//    @PreAuthorize("permitAll")
+    @PreAuthorize("permitAll")
     public ResponseEntity<BlogListResource> findAllBlogs(
             @PathVariable Long accountId) {
         try {
